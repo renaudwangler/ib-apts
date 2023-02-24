@@ -13,13 +13,13 @@
     </div>
     {{ content }}
     {% if page.Azure %}
-      <div id="Azure">{% include Azure.html %}</div>
+      <div id="Azure" class="grey">{% include Azure.html %}</div>
     {% endif %}
     {% if page.m365 %}
-      <div id="m365">{% include m365.html %}</div>
+      <div id="m365" class="grey">{% include m365.html %}</div>
     {% endif %}
     {% if page.goDeploy %}
-    <div id="goDeploy">{% include goDeploy.html %}</div>
+    <div id="goDeploy" class="grey">{% include goDeploy.html %}</div>
     {% endif %}
     <div id='foot'>
       {% include outro.html %}
