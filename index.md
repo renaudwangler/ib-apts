@@ -6,10 +6,10 @@ permalink: /
 # ib - Accompagnement Pédagogique et Technique des Stages
 Liste des éléments d'accompagnement disponibles :  
 
-{% assign stages = site.pages | where_exp:"page", "page.url contains '/stages'" %}
+{% assign stages = site.pages | where_exp:'page',"page.url contains '/stages'" %}
 | Stage | Libellé |
 | --- | --- | 
-{% for course in stages  %}| {{ course.ref }} | [{{ course.title }}]({{ site.github.url }}{{ stage.url }}) |
+{% for stage in stages  %}| {{ stage.ref }} | [{{ stage.title }}]({{ site.url }}{{ stage.url }}) |
 {% endfor %}
 
 [Aide concernant la plateforme d'ateliers en ligne goDeploy](https://github.com/renaudwangler/ib/blob/master/extra/goDeployDoc.md#plateforme-godeploy)  
