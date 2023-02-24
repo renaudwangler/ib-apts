@@ -22,10 +22,16 @@
       </div>  
     {% endif %}
     {% if page.m365 %}
-      <div id="m365" class="grey">{% include m365.html %}</div>
+      <div id="m365" class="grey">
+        <h3 class="moins"onclick="switchDiv('m365-sub',this);">Conseils génériques concernant Microsoft 365</h3>
+        <div id="m365-sub" style="display:none;">{% include m365.html %}</div>
+        </div>
     {% endif %}
     {% if page.goDeploy %}
-    <div id="goDeploy" class="grey">{% include goDeploy.html %}</div>
+    <div id="goDeploy" class="grey">
+      <h3 class="moins"onclick="switchDiv('goDeploy-sub',this);">Conseils d'animation avec la plateforme goDeploy</h3>
+      <div id="goDeploy-sub" style="display:none;">{% include goDeploy.html %}</div>
+    </div>
     {% endif %}
     <div id='foot'>
       {% include outro.html %}
