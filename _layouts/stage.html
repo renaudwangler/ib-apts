@@ -9,7 +9,8 @@
   </head>
   <body id="stage">
     <div id="head">
-      {{ page.title }} <a href="/ib-apts">Home</a>
+      {{ page.title }}
+      <a href="/ib-apts" title="Retour à la liste." id="back"></a>
     </div>
     {{ content }}
     {% if page.Azure %}
