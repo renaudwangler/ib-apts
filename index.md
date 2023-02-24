@@ -1,6 +1,4 @@
 ---
-title: ib -APTS
-permalink: /
 layout: default
 stringFilters: https://learn.cloudcannon.com/jekyll/string-filters-in-liquid
 themeMSSample: https://github.com/MicrosoftLearning/Jekyll-Theme
