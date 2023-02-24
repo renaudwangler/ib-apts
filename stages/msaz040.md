@@ -1,8 +1,14 @@
 ---
-ref: "msaz040"
-title: "Automatiser les tâches d'administration Windows avec PowerShell"
+ref: 'msaz040'
+title: 'Automatiser les tâches d'administration Windows avec PowerShell'
 goDeploy: true
 Azure: true
+---
+
+---
+lab:
+    title: '01 - Manage Azure Active Directory Identities'
+    module: 'Administer Identity'
 ---
 Il s'agit bien d'une formation officielle, mais qui n'a pas de certification associée. Son contenu est orienté terrain et assez pragmatique !  
 Lien vers les labs officiels MS sur Github : https://github.com/MicrosoftLearning/AZ-040T00-Automating-Administration-with-PowerShell/blob/master/Instructions/Labs .
