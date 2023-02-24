@@ -1,3 +1,9 @@
+---
+ref: "msaz040"
+title: "Automatiser les tâches d'administration Windows avec PowerShell"
+goDeploy: true
+Azure: true
+---
 Il s'agit bien d'une formation officielle, mais qui n'a pas de certification associée. Son contenu est orienté terrain et assez pragmatique !  
 Lien vers les labs officiels MS sur Github : https://github.com/MicrosoftLearning/AZ-040T00-Automating-Administration-with-PowerShell/blob/master/Instructions/Labs .
 ## Timing exemple
@@ -12,5 +18,3 @@ Exemple (a fin de démonstration, sans intérêt terrain) de renommage d'une pro
 ## Tous les labs
 Les ateliers sur goDeploy sont **nécessaires** pour ce stage. Cependant, le dépot gitHub contient des ateliers (LAB_XX) et les corrigés d'atelier (LAB_AK_XX).  
 Le contenu proposé par goDeploy correspond bien plus aux corrigés. Certains stagiaires préfèreront donc probablement une démarche de recherche personnelle avec les ateliers avant de regarder les corrigés, s'ils ont déjà des connaissances et le temps d'assumer cette démarche.
-<div id=""goDeploy></div>
- <div id="Azure"></div>
