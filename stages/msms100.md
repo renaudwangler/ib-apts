@@ -1,7 +1,7 @@
 ﻿---
 title: Microsoft 365 - Gestion des identités et des services
 goDeploy: true
-o365: true
+m365: true
 ---
 <div id="conseils">
   Il ne s'agit pas d'un stage d'introduction ou de <i>premier niveau</i> : Comme il prépare l'apprenant au métier d'administrateur Microsoft 365, il exige des prérequis non négligeables.

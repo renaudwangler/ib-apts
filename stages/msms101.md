@@ -1,7 +1,7 @@
 ﻿---
 title: Microsoft 365 - Gestion de la sécurité et de la mobilité
 goDeploy: true
-o365: true
+m365: true
 ---
 <div id="conseils">
 Le contenu actuel du stage (Juillet 2021) a bien progressé depuis sa version initiale mais reste un peu léger pour 5 jours.

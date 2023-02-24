@@ -1,7 +1,7 @@
 ---
 title: Administration de Microsoft Teams
 goDeploy: true
-o365: true
+m365: true
 ---
 <div id="conseils">
 Attention à la gestion du temps : il s'agit d'un stage de 4 jours dont le contenu est particulièrement léger....

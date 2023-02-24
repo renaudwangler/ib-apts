@@ -9,17 +9,17 @@
   </head>
   <body>
     <div id='nav'>
-      <h2>{{ page.title }}</h2> <a href="/../..">Home</a>
+      <h2>{{ page.title }}</h2> <a href="../..">Home</a>
     </div>
     {{ content }}
     {% if page.Azure %}
-      Paragraphe Azure
+      <div id="Azure">{% include Azure.html %}</div>
     {% endif %}
-    {% if page.o365 %}
-      Paragraphe o365
+    {% if page.m365 %}
+      <div id="m365">{% include m365.html %}</div>
     {% endif %}
     {% if page.goDeploy %}
-      Paragraphe goDeploy
+    <div id="goDeploy">{% include goDeploy.html %}</div>
     {% endif %}
     <div id='foot'>
       {% include outro.html %}

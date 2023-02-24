@@ -1,38 +1,3 @@
-courses = {
-  //'m20411d':'Administrer Windows Server 2012 R2',
-  'm20740c':'Installation de Windows Server 2016, gestion du stockage et de la virtualisation',
-  'm20741b':'Les services réseaux Windows Server 2016',
-  'm20742b':'Gestion des identités avec Windows Server 2016',
-  'm20345-1':'Administrer Exchange Server 2016/2019',
-  'msws011':'Windows Server 2019 Administration',
-  'msws012':'Windows Server 2019 hybride et Azure IaaS',
-  'msaz040':'Automatiser les tâches d\'administration Windows avec PowerShell',
-  'msaz104':'Microsoft Azure - Administration',
-  'msaz303':'Microsoft Azure - Technologies pour les architectes',
-  'msaz305':'Microsoft Azure - Conception d\'architectures',
-  'msaz400':'Concevoir et mettre en oeuvre des solutions Microsoft DevOps',
-  'msaz500':'Microsoft Azure - Technologies de sécurité',
-  'msaz800':'Windows Server - Administration de base de l\'infrastructure hybride',
-  'msaz801':'Windows Server - Configuration des services avancés hybrides',
-  'msaz900-1j':'Microsoft Azure - Notions fondamentales (1 journée)',
-  'msaz900-2j':'Microsoft Azure - Notions fondamentales (2 jours)',
-  'msms030':'Microsoft 365 - Administration',
-  'm10997':'Microsoft 365 - Administration courante et dépannage',
-  'msms100':'Microsoft 365 - Gestion des identités et des services',
-  'msms101':'Microsoft 365 - Gestion de la sécurité et de la mobilité',
-  'msms200':'Microsoft 365 - Planification et configuration d’une plate-forme de messagerie',
-  'msms300':'Microsoft 365 - Déploiement de Teamwork',
-  'msms500':' 365 - Security Administration',
-  'msms700':'Administration de Microsoft Teams'
-};
-
-
-const unsortedObjArr = [...Object.entries(courses)];
-let sortedObjArr = unsortedObjArr.sort(([key1, value1], [key2, value2]) => key2.localeCompare(key1));
-let sortedObject = {};
-sortedObjArr.forEach(([key, value]) => (sortedObject[key] = value));
-courses=sortedObject;
-
 function links() {
   let courseTable=document.getElementsByTagName('table')[0];
   Object.entries(courses).forEach(([courseId,courseTitle]) => {
@@ -69,41 +34,7 @@ function aptsLoad() {
 23,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.\
 028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg></a>\
 <a href="index.html" title="Retour à la liste." id="back"><img src="logo_ibcegos.png" alt="Retour" style="width:100px;height:72px;"></a></h1>'+document.body.innerHTML+'<div id="outro"></div>';
-  
-  if (document.getElementById('conseils')) {document.getElementById('conseils').innerHTML='<h2>Accompagnement Pédagogique et Technique pour le stage '+pageName+'</h2>'+document.getElementById('conseils').innerHTML;}
-  if (document.getElementById('goDeploy')) {readFile('goDeploy.html','goDeploy');}
-  if (document.getElementById('o365')) {readFile('o365.html','o365');}
-  if (document.getElementById('Azure')) {readFile('Azure.html','Azure');}
-  readFile('outro.html','outro');
-  document.title=pageName+' - APTS';
-  var cssRef = document.createElement('link');
-  cssRef.setAttribute('rel','stylesheet');
-  cssRef.setAttribute('type','text/css');
-  cssRef.setAttribute('href','ib-apts.css');
-  document.getElementsByTagName('head')[0].appendChild(cssRef);}
-
-function readFile(fileName,divID) {
-  var txtFile=new XMLHttpRequest();
-  txtFile.open('GET',fileName,true);
-  txtFile.onreadystatechange = function() {
-    if (txtFile.readyState === 4) {if (txtFile.status === 200) {
-      div=document.getElementById(divID);
-      div.innerHTML=txtFile.responseText;
-      if (divID!='outro') {
-        div.className='grey';
-        h3=document.querySelector('#'+divID+'> h3');
-        subDiv=document.querySelector('#'+divID+' h3::after');
-        h3.parentElement.removeChild(h3);
-        h3.onclick=switchDiv.bind(h3,divID+'-sub',h3);
-        h3.className='moins';
-        var newDiv=document.createElement('div');
-        newDiv.id=divID+'-sub';
-        newDiv.style.display='none';
-        newDiv.innerHTML=div.innerHTML;
-        div.innerHTML='';
-        div.appendChild(h3);
-        div.appendChild(newDiv);}}}}
-txtFile.send(null);}
+}
 
 function switchDiv(divId,titre) {
   div=document.getElementById(divId);

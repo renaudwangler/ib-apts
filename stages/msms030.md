@@ -1,7 +1,7 @@
 ﻿---
 title: Microsoft 365 - Administration
 goDeploy: true
-o365: true
+m365: true
 ---
 <div id="conseils">
   Il s'agit d'un stage ib, repris d'un ancien stage officiel qui n'est plus à l'offre MS.

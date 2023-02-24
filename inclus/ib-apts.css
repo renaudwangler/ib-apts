@@ -9,12 +9,12 @@ h2{font-family: 'Ryker'; color:#EA690B;text-decoration:underline;margin:0em;disp
 h3{margin-top:1em;margin-bottom:-1em;padding-bottom:0px;}
 h3.plus:before {content: '+ ';}
 h3.moins:before {content: '- ';}
-table.cRef {border-collapse:collapse;font-weight:bold;text-decoration:none;color:#EA690B;margin:0px;margin-bottom:4px;}
-table.cRef td{border:solid 2px #EA690B;padding:2px;}
-table.cRef tr:hover{background-color:gray;color:white;cursor:pointer;}
+table {border-collapse:collapse;font-weight:bold;text-decoration:none;color:#EA690B;margin:0px;margin-bottom:4px;}
+td{border:solid 2px #EA690B;padding:2px;}
+tr:hover{background-color:gray;color:white;cursor:pointer;}
 a.cRef {display:block;font-weight:bold;text-decoration:none;color:#EA690B;border:solid 2px #EA690B;padding:2px;margin:0px;margin-top:6px;text-align:center;}
 a.cRef:hover {background-color:gray;color:white;cursor:pointer;}
-table.cRef td.lastCourse {background-color: lightgrey;}
+td.lastCourse {background-color: lightgrey;}
 ul {margin:0px;margin-bottom:5px;white-space:normal;}
 li{list-style:none;}
 li::before{color:#EA690B;content:"\2022";font-size:1em;padding-right:0.7em;}

@@ -1,7 +1,7 @@
 ---
 title: 365 - Security Administration
 goDeploy: true
-o365: true
+m365: true
 ---
 <div id="conseils">
 Attention à la gestion du temps : il s'agit d'un stage de 4 jours, avec des petits modules unitaires sur la seconde moitié de la semaine....
