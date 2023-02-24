@@ -6,8 +6,9 @@ lastEdit: Janvier 2023
 ---
 Il s'agit d'un stage ib, repris d'un ancien stage officiel qui n'est plus à l'offre MS.
 Son contenu est pertinent et a été largement mis à jour par ib :
-* Jeu de diapositives completmise à jour
-* Ateliers mis à jour  
+- Jeu de diapositives completmise à jour
+- Ateliers mis à jour  
+
 Globalement, le contenu de ce stage est intéressant et pragmatique : préparer un admin terrain plus qu'à la certification...
 # Déroulé des ateliers
 Pour animer ces ateliers, on s'appuie sur l'environnement fourni hsitoriquement par goDeploy pour le stage MS-030.  

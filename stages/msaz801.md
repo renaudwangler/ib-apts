@@ -11,6 +11,7 @@ Azure: true
 - Jour 2 : 
 - Jour 3 : 
 - Jour 4 : 
+
 # Tous les labs
 Les ateliers *goDeploy* ne sont pas nécessaires (voire pénalisant pour la partie Azure AD) avec ce stage.  
 Si les stagiaires ont des problèmes, par exemple pour se connecter en RDP à une machine virtuelle, on pourra se référer aux [procédures de mise en place d'un environnement d'ateliers ib sur un compte Azure](https://github.com/renaudwangler/ib/blob/master/extra/ibAzureLabs.md#mise-en-place-dun-environnement-dateliers-ib-sur-un-compte-azure)

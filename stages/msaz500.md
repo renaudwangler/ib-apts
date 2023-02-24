@@ -15,6 +15,7 @@ Dans les éléments téléchargeables concernant ce stage, ne pas passer à côt
 - Jour 2 (Sécurité des resources Azure): Module 2 + Ateliers 7, 8 et 9
 - Jour 3 (Sécurité des données et applications): Module 3 + Atelier 10, 11 et 12
 - Jour 4 (Sécurisation opérationnelle): Module 4 + Ateliers 13, 14 et 15  
+
 # Timing Exemple sur 5 jours
 (contenu léger pour 5 jours...)
 - Jour 1: Module 0 (présentation) et Module 1, thèmes 1 et 2; Lab 6
@@ -22,11 +23,13 @@ Dans les éléments téléchargeables concernant ce stage, ne pas passer à côt
 - Jour 3: Module 2, thèmes 4 et 5, Lab 9 ( (lab en plus si goDeploy : 104 à 107); Module 3, thèmes 1 et 2, Lab 10
 - Jour 4: Module 3, thèmes 3 et 4, labs 11 et 12; Module 4, thème 1 et 2
 - Jour 5: Module 4, thème 3, Labs 13, 14 et 15  
+
 # Atelier 4
 - Il est possible d'utiliser un numéro de mobile pour recevoir un texto pour la MFA.
 Sinon, il est possible d'utiliser une application de vérification sur smartphone ou sur le poste de travail.
 - Il faudra également pouvoir se connecter en RDP sur la vm Azure. Sinon, mettre en place (10/15 minutes) d'un bastion.
-- **Attention** : Pas de nettoyage à l'issue de cet atelier, simple arrêt de la VM.
+- **Attention** : Pas de nettoyage à l'issue de cet atelier, simple arrêt de la VM.  
+
 # Atelier 5
 La supression de l'Azure AD auquel est associé le test de licence Azure AD Premium ne pourra se faire dans le délai de la formation.
 # Atelier 10
