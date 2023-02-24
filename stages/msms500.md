@@ -1,9 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-<script src="apts.js" type="text/javascript"></script>
-</head>
-<body onload="aptsLoad();">
+---
+ref: msms500
+title: 365 - Security Administration
+goDeploy: true
+o365: true
+---
 <div id="conseils">
 Attention à la gestion du temps : il s'agit d'un stage de 4 jours, avec des petits modules unitaires sur la seconde moitié de la semaine....
   <h3>Module 3</h3>
@@ -48,8 +48,4 @@ Attention à la gestion du temps : il s'agit d'un stage de 4 jours, avec des pet
   <a href="https://m365maps.com/matrix.htm#000000000000000000000" target="_blank">Comparaison fonctionnelle (non officielle) licenses</a>
   
   <a href="https://docs.microsoft.com/en-us/microsoft-365/admin/basic-mobility-security/set-up?redirectSourcePath=%252fen-us%252farticle%252fManage-mobile-devices-in-Office-365-dd892318-bc44-4eb1-af00-9db5430be3cd&view=o365-worldwide" target="_blank">MDM for 365</a> (Basic MDM)
-<div id="goDeploy"></div>
-<div id="o365"></div>
 </div>
-</body>
-</html>

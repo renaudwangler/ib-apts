@@ -1,9 +1,9 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-<script src="apts.js" type="text/javascript"></script>
-</head>
-<body onload="aptsLoad();">
+﻿---
+ref: msms100
+title: Microsoft 365 - Gestion des identités et des services
+goDeploy: true
+o365: true
+---
 <div id="conseils">
   Il ne s'agit pas d'un stage d'introduction ou de <i>premier niveau</i> : Comme il prépare l'apprenant au métier d'administrateur Microsoft 365, il exige des prérequis non négligeables.
   Au vu des différences pédagigues entre les US et l'Europe, il pourra être pertinent de parler des <i>Check your knowledge</i> lors de l'apparition de la première diapositive puis de masquer les autres (Les diapositives "discussions" pourront également être remplaçées).
@@ -44,8 +44,4 @@
   <li><b>Jeudi :</b> Fin du Module 4</li>
   <li><b>Vendredi :</b> Modules 5 et 6</li>
 </ul>
-<div id="o365"></div>
-<div id="goDeploy"></div>
 </div>
-</body>
-</html>

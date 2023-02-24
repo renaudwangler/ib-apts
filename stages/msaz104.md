@@ -1,9 +1,8 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-<script src="apts.js" type="text/javascript"></script>
-</head>
-<body onload="aptsLoad();">
+﻿---
+ref: msaz104
+title: Microsoft Azure - Administration
+Azure: true
+---
 <div id="conseils">
   Le stage est plutôt dense sur 4 jours et s'adresse à des stagiaires qui ont impérativement suivi le msaz900 pour connaitre les principes Cloud et Azure de base.
   Le cas échéant, renvoyer les stagiaires sur le az-900 sur MSLearn.
@@ -71,7 +70,4 @@ $appgw = New-AzApplicationGateway -Name az104-06-appgw5  -ResourceGroupName az10
   Cela permet de bien montrer la différence entre les deux approches, la gestion applicative complète PAAS de la web-app et le '<i>quasi-Iaas</i>' de l'instance de conteneur.
   <h3>Atelier 10</h3>
   A noter que si l'on crée un <b>Log Analytics</b> en "East US", le <b>Automation Account</b> derva être créé dans la région "East US 2" (et vice versa, comme indiqué dans le document pointé par la petite note de l'atelier).
-  <div id="Azure"></div>
 </div>
-</body>
-</html>

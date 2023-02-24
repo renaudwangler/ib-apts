@@ -1,9 +1,9 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-<script src="apts.js" type="text/javascript"></script>
-</head>
-<body onload="aptsLoad();">
+﻿---
+ref: msms101
+title: Microsoft 365 - Gestion de la sécurité et de la mobilité
+goDeploy: true
+o365: true
+---
 <div id="conseils">
 Le contenu actuel du stage (Juillet 2021) a bien progressé depuis sa version initiale mais reste un peu léger pour 5 jours.
 Il faudra éviter de prévoir des journées de travail trop dense : elles ne pourraient être remplies....
@@ -47,8 +47,4 @@ Pas de lab officiel, ce <a href="https://github.com/renaudwangler/ib/blob/master
 Utiliser la commande suivante:
 <code>Invoke-Command -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential (Get-Credential) -Authentication Basic -AllowRedirection -ScriptBlock {New-TransportRule -Name 'Office Message Encription  - Outside' -ApplyOME $true -ApplyRightsProtectionTemplate 'Encrypt' -SentToScope NotInOrganization}</code>
 puis envoyer un message vers une boite externe à l'organisation Exchange
-<div id="o365"></div>
-<div id="goDeploy"></div>
 </div>
-</body>
-</html>

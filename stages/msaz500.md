@@ -1,9 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-<script src="apts.js" type="text/javascript"></script>
-</head>
-<body onload="aptsLoad();">
+---
+ref: msaz500
+title: Microsoft Azure - Technologies de sécurité
+goDeploy: true
+Azure: true
+---
 <div id="supports">
   <a href="https://docs.microsoft.com/fr-fr/training/courses/AZ-500T00?WT.mc_id=ilt_partner_webpage_wwl&ocid=IB1090206#study-guide">Support de stage en Français</a>
   <a href="https://docs.microsoft.com/en-us/training/courses/AZ-500T00?WT.mc_id=ilt_partner_webpage_wwl&ocid=IB1090206#study-guide">Support de stage en Anglais</a>
@@ -53,7 +53,4 @@ Par exemple, les journaux (logs) sont filtrés pour affichage en se basant sur l
   S'il est impossible d'ajouter (de voir) la VM depuis le workspace Log Analytics, procéder à l'onboard depuis le menu "Logs" de la VM...
 <h3>Ateliers goDeploy</h3>
 A priori pas de limitation sur le nombre de lancement des labs "Cloud Shared" de cette formation (la seule limitation est la durée d'accès de 6 mois aux ateliers).
-<div id="Azure"></div>
 </div>
-</body>
-</html>

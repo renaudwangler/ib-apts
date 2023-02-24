@@ -1,9 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-<script src="apts.js" type="text/javascript"></script>
-</head>
-<body onload="aptsLoad();">
+---
+ref: msaz801
+title: Windows Server - Configuration des services avancés hybrides
+goDeploy: true
+Azure: true
+---
 <div id="conseils">
   <h3>Lien vers le stage sur MS-Learn</h3>
   <a href="https://learn.microsoft.com/en-us/training/courses/az-801t00" target="_blank">Administering Windows Server Hybrid Core Infrastructure</a>
@@ -21,7 +21,4 @@
   Lien vers <a href="https://microsoftlearning.github.io/AZ-801-Configuring-Windows-Server-Hybrid-Advanced-Services/" target="_blank">les labs az-801</a>
   (les labs sur Github sont désormais illustrés.)
   Expliquer la procédure de nettoyage consistant à supprimer le Resource Group, souvent plus pertinente que les commandes fournies.
-<div id="Azure"></div>
 </div>
-</body>
-</html>

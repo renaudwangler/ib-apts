@@ -1,9 +1,9 @@
-﻿<!DOCTYPE html>
-<html>
-<head>
-<script src="apts.js" type="text/javascript"></script>
-</head>
-<body onload="aptsLoad();">
+﻿---
+ref: msms030
+title: Microsoft 365 - Administration
+goDeploy: true
+o365: true
+---
 <div id="conseils">
   Il s'agit d'un stage ib, repris d'un ancien stage officiel qui n'est plus à l'offre MS.
   Son contenu est pertinent et a été largement mis à jour par ib :
@@ -16,8 +16,4 @@
   Elle peut être trouvée <a href="https://github.com/renaudwangler/ib/tree/master/labs/msms030" target="_blank">A l'adresse suivante</a> à communiquer aux stagiaires.
   <h3>Détail ateliers GoDeploy</h3>
   Si office n'est pas activé dans une machine virtuelle, lancer "c:\office rearm.bat" en mode administrateur.
-<div id="o365"></div>
-<div id="goDeploy"></div>
 </div>
-</body>
-</html>

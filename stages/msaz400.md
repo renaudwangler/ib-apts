@@ -1,9 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-<script src="apts.js" type="text/javascript"></script>
-</head>
-<body onload="aptsLoad();">
+---
+ref: msaz400
+title: Concevoir et mettre en oeuvre des solutions Microsoft DevOps
+Azure: true
+---
 <div id="conseils">
   Les ateliers goDeploy Ne sont pas indispensables : les ateliers de ce stage peuvent être réalisés avec un compte <i>Azure Pass</i> et <a href="https://microsoftlearning.github.io/AZ400-DesigningandImplementingMicrosoftDevOpsSolutions/" target="_blank">les instructions du dépot github</a>.  
   On pourra conseiller, aux stagiaires qui n'en n'ont pas, de se créer un compte Github en y associant le compte Microsoft créé pour activer le Pass Azure.
@@ -22,7 +21,4 @@
   <h3>Atelier 4</h3>
   Si l'agent ne peut démarrer correctement, aller dans les services Windows et passer le service correspondant (<i>Azure Pipeline Agent</i>) en connexion sous l'identité système puis le démarrer...  
   Bien conserver les 2 espaces qui étaient avant le nom de la vm lorsqu'on le remplace par les 3 lignes de code indiquées dans l'Exercice 2.
-<div id="Azure"></div>
 </div>
-</body>
-</html>

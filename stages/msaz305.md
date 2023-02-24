@@ -1,9 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-<script src="apts.js" type="text/javascript"></script>
-</head>
-<body onload="aptsLoad();">
+---
+ref: msaz305
+title: Microsoft Azure - Conception d'architectures
+Azure: true
+---
 <div id="conseils">
   Ce stage remplace le stage AZ-304  
   <a href="https://microsoftlearning.github.io/AZ-305-DesigningMicrosoftAzureInfrastructureSolutions/" target="_blank">Lien vers les études de cas stagiaires</a>
@@ -36,7 +35,4 @@
   <h4>Exercice 7</h4>Tâche 2, point 3 : utiliser 192.168.1.0/27 comme espace d'adresses pour le sous-réseau de passerelle (il faudrea également modifier la taille de masque du réseau de passerelle de WGVnet1).
   
     </div></div>
-<div id="Azure"></div>
 </div>
-</body>
-</html>

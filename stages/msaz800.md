@@ -1,9 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-<script src="apts.js" type="text/javascript"></script>
-</head>
-<body onload="aptsLoad();">
+---
+ref: msaz800
+title: Windows Server - Administration de base de l'infrastructure hybride
+goDeploy: true
+Azure: true
+---
 <div id="conseils">
   <h3>Lien vers le stage sur MS-Learn</h3>
   <a href="https://learn.microsoft.com/en-us/training/courses/az-800t00" target="_blank">Administering Windows Server Hybrid Core Infrastructure</a>
@@ -27,8 +27,4 @@
   Lien vers <a href="https://microsoftlearning.github.io/AZ-800-Administering-Windows-Server-Hybrid-Core-Infrastructure/" target="_blank">les labs az-800</a>
   Expliquer la procédure de nettoyage consistant à supprimer le Resource Group, souvent plus pertinente que les commandes fournies.
   Mentionner, pour les plus complétistes (impossible de réaliser un échange théorique de qualité sur les thèmes + tous les labs en 4 jours) la présence de <a href="https://mslabs.cloudguides.com/guides/AZ-800%20Lab%20Simulations%20-%20Administering%20Windows%20Server%20Hybrid%20Core%20Infrastructure" target="_blank">Simulation de tous les ateliers</a>.
-<div id="Azure"></div>
-<div id="goDeploy"></div>
 </div>
-</body>
-</html>
