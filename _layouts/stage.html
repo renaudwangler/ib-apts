@@ -3,20 +3,16 @@
   <head>
     <script src="{{ site.github.url }}/inclus/apts.js" type="text/javascript"></script>
     <meta charset="utf-8">
-    <title>{{ page.title }}</title>
+    <title>{{ page.name | remove: '.md' }}</title>
     <link rel="stylesheet" href="{{ site.github.url }}/inclus/ib-apts.css">
   </head>
   <body>
-    <nav>
-      <a href="/">Home</a>
-      <a href="/blog/">Blog</a>
-    </nav>
-    <h1>{{ page.title }}</h1>
-    <section>
-      {{ content }}
-    </section>
-    <footer>
+    <div id='nav'>
+      <h2>{{ page.title }}</h2> <a href="/../..">Home</a>
+    </div>
+    {{ content }}
+    <div id='foot'>
       {% include outro.html %}
-    </footer>
+    </div>
   </body>
 </html>
