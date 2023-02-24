@@ -9,7 +9,7 @@ themeMSSample: https://github.com/MicrosoftLearning/Jekyll-Theme
 Liste des éléments d'accompagnement disponibles :  
 
 {% assign stages = site.pages | where_exp:'page',"page.url contains '/stages'" | sort:'name' %}
-{% for stage in stages  %}| {{ stage.name | remove: '.md' }} | [{{ stage.title }}]({{ site.github.url }}{{ stage.url }}) |
+{% for stage in stages  %}| [{{ stage.name | remove: '.md' }}]({{ site.github.url }}{{ stage.url }}) | [{{ stage.title }}]({{ site.github.url }}{{ stage.url }}) |
 {% endfor %}
 
 [Aide concernant la plateforme d'ateliers en ligne goDeploy](https://github.com/renaudwangler/ib/blob/master/extra/goDeployDoc.md#plateforme-godeploy)  
