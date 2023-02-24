@@ -9,7 +9,7 @@ Liste des éléments d'accompagnement disponibles :
 {% assign stages = site.pages | where_exp:'page',"page.url contains '/stages'" %}
 | Stage | Libellé |
 | --- | --- | 
-{% for stage in stages  %}| {{ stage.ref }} | [{{ stage.title }}]({{ site.url }}{{ stage.url }}) |
+{% for stage in stages  %}| {{ stage.ref }} | [{{ stage.title }}]({{ stage.url }}) |
 {% endfor %}
 
 [Aide concernant la plateforme d'ateliers en ligne goDeploy](https://github.com/renaudwangler/ib/blob/master/extra/goDeployDoc.md#plateforme-godeploy)  

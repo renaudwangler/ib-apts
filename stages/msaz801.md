@@ -4,21 +4,17 @@ title: Windows Server - Configuration des services avancés hybrides
 goDeploy: true
 Azure: true
 ---
-<div id="conseils">
-  <h3>Lien vers le stage sur MS-Learn</h3>
-  <a href="https://learn.microsoft.com/en-us/training/courses/az-801t00" target="_blank">Administering Windows Server Hybrid Core Infrastructure</a>
-  <a href="https://learn.microsoft.com/fr-fr/training/courses/az-801t00" target="_blank">Administration de l’infrastructure principale Windows Server hybride</a>
-  <h3>Timing exemple</h3>
-  <ul>
-    <li>Jour 1 : </li>
-    <li>Jour 2 : </li>
-    <li>Jour 3 : </li>
-    <li>Jour 4 : </li>
-  </ul>
-  <h3>Tous les labs</h3>
-  Les ateliers *goDeploy* ne sont pas nécessaires (voire pénalisant pour la partie Azure AD) avec ce stage.
-  Si les stagiaires ont des problèmes, par exemple pour se connecter en RDP à une machine virtuelle, on pourra se référer aux <a href="https://github.com/renaudwangler/ib/blob/master/extra/ibAzureLabs.md#mise-en-place-dun-environnement-dateliers-ib-sur-un-compte-azure" target="_blank">procédures de mise en place d'un environnement d'ateliers ib sur un compte Azure</a>!
-  Lien vers <a href="https://microsoftlearning.github.io/AZ-801-Configuring-Windows-Server-Hybrid-Advanced-Services/" target="_blank">les labs az-801</a>
-  (les labs sur Github sont désormais illustrés.)
-  Expliquer la procédure de nettoyage consistant à supprimer le Resource Group, souvent plus pertinente que les commandes fournies.
-</div>
+# Lien vers le stage sur MS-Learn
+- [Administering Windows Server Hybrid Core Infrastructure](https://learn.microsoft.com/en-us/training/courses/az-801t00)
+- [Administration de l’infrastructure principale Windows Server hybride](https://learn.microsoft.com/fr-fr/training/courses/az-801t00)
+# Timing exemple
+- Jour 1 : 
+- Jour 2 : 
+- Jour 3 : 
+- Jour 4 : 
+# Tous les labs
+Les ateliers *goDeploy* ne sont pas nécessaires (voire pénalisant pour la partie Azure AD) avec ce stage.  
+Si les stagiaires ont des problèmes, par exemple pour se connecter en RDP à une machine virtuelle, on pourra se référer aux [procédures de mise en place d'un environnement d'ateliers ib sur un compte Azure](https://github.com/renaudwangler/ib/blob/master/extra/ibAzureLabs.md#mise-en-place-dun-environnement-dateliers-ib-sur-un-compte-azure)
+!  
+Lien vers [les labs az-801](https://microsoftlearning.github.io/AZ-801-Configuring-Windows-Server-Hybrid-Advanced-Services/) (les labs sur Github sont désormais illustrés.)  
+Expliquer la procédure de nettoyage consistant à supprimer le Resource Group, souvent plus pertinente que les commandes fournies.
