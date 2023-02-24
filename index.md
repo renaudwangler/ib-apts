@@ -8,7 +8,7 @@ themeMSSample: https://github.com/MicrosoftLearning/Jekyll-Theme
 # ib - Accompagnement Pédagogique et Technique des Stages
 Liste des éléments d'accompagnement disponibles :  
 
-{% assign stages = site.pages | where_exp:'page',"page.url contains '/stages'" %}
+{% assign stages = site.pages | where_exp:'page',"page.url contains '/stages'" | sort:'name' %}
 | Stage | Libellé |
 | --- | --- | 
 {% for stage in stages  %}| {{ stage.name | remove: '.md' }} | [{{ stage.title }}]({{ site.github.url }}{{ stage.url }}) |
