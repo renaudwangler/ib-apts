@@ -1,5 +1,4 @@
 ---
-ref: msaz400
 title: Concevoir et mettre en oeuvre des solutions Microsoft DevOps
 Azure: true
 ---

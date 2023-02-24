@@ -1,5 +1,4 @@
 ﻿---
-ref: msaz104
 title: Microsoft Azure - Administration
 Azure: true
 ---

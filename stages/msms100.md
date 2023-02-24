@@ -1,5 +1,4 @@
 ﻿---
-ref: msms100
 title: Microsoft 365 - Gestion des identités et des services
 goDeploy: true
 o365: true

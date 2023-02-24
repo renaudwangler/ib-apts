@@ -1,5 +1,4 @@
 ---
-ref: msaz500
 title: Microsoft Azure - Technologies de sécurité
 goDeploy: true
 Azure: true

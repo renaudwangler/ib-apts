@@ -1,5 +1,4 @@
 ﻿---
-ref: msaz900
 title: Microsoft Azure - Notions fondamentales
 Azure: true
 ---

@@ -1,5 +1,4 @@
 ---
-ref: msms700
 title: Administration de Microsoft Teams
 goDeploy: true
 o365: true

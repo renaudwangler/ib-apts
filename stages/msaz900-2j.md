@@ -1,5 +1,4 @@
 ﻿---
-ref: msaz900-2j
 title: Microsoft Azure - Notions fondamentales (2 jours)
 goDeploy: true
 Azure: true

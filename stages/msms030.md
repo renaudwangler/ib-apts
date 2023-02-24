@@ -1,5 +1,4 @@
 ﻿---
-ref: msms030
 title: Microsoft 365 - Administration
 goDeploy: true
 o365: true

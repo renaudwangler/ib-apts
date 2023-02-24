@@ -1,5 +1,4 @@
 ---
-ref: msaz801
 title: Windows Server - Configuration des services avancés hybrides
 goDeploy: true
 Azure: true

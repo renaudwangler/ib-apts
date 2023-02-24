@@ -1,5 +1,4 @@
 ---
-ref: msaz800
 title: Windows Server - Administration de base de l'infrastructure hybride
 goDeploy: true
 Azure: true

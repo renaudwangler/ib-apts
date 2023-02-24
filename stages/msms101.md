@@ -1,5 +1,4 @@
 ﻿---
-ref: msms101
 title: Microsoft 365 - Gestion de la sécurité et de la mobilité
 goDeploy: true
 o365: true

@@ -1,5 +1,4 @@
 ---
-ref: msms500
 title: 365 - Security Administration
 goDeploy: true
 o365: true

@@ -1,5 +1,4 @@
 ---
-ref: msaz305
 title: Microsoft Azure - Conception d'architectures
 Azure: true
 ---
