@@ -1,7 +1,9 @@
 ---
 title: ib -APTS
 permalink: /
-layout: home
+layout: default
+stringFilters: https://learn.cloudcannon.com/jekyll/string-filters-in-liquid
+themeMSSample: https://github.com/MicrosoftLearning/Jekyll-Theme
 ---
 # ib - Accompagnement Pédagogique et Technique des Stages
 Liste des éléments d'accompagnement disponibles :  
