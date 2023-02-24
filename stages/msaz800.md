@@ -10,7 +10,7 @@ Azure: true
 - Jour 1 : LP1 modules 1 à 6 (jeux de diapos 1 et 2)
 - Jour 2 : LP2 et LP3 modules 1 à 5 (jeux de diapos 3, 4 et 5)
 - Jour 3 : fin LP3, LP4 modules 1 à 5 (jeux de diapos 6, 7 et premier module du 8)
-- Jour 4 : fin LP4 et LP5 (jeux de diapos 8, 9 et 10)
+- Jour 4 : fin LP4 et LP5 (jeux de diapos 8, 9 et 10)  
   >**Nota :** Le timing officiel/idéal MS indique 1550 minutes (envion 26 heures), 1450 sans "reviews" (environ 24h)
 # Learning Path 1 - Module 2
 La diapositive N° 21 est erronnée : la fonctionnalité "Seamless SSO" n'a aucun sens avec du ADFS. Elle peut fluidifier le logon utilisateur avec le Password hasj Sync ou le Path Through Authentication.  

@@ -10,7 +10,7 @@ Bien commencer par la procédure "Atelier 0" des instructions le plus tôt possi
 - Jour 1 : Intro (+setup du lab) Modules 1 et 2
 - Jour 2 : Module 3 et début 4
 - Jour 3 : Modules 4, 5 et 6
-- Jour 4 : Modules 7, 8 et 9
+- Jour 4 : Modules 7, 8 et 9  
 >**Note : ** A date (25/07/202), la somme des durées des modules simplement indiqués sur MSLearn (sas ateliers) fait 29h35.. : 4 jours à 7h de travail ne font que 28h....
 # Ateliers
 Pour réaliser les ateliers, les stagiaires pourront se créer une machine virtuelle dans leur compte Azure, en suivant par exemple [la procédure ib](https://github.com/renaudwangler/ib/blob/master/extra/ibAzureLabs.md#proc%C3%A9dure-4--cr%C3%A9ation-dune-machine-virtuelle-administrative).

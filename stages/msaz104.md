@@ -14,7 +14,7 @@ Dans les éléments téléchargeables concernant ce stage, ne pas passer à côt
 - Jour 1 : Introduction modules 1 et 2
 - Jour 2 : Modules 3,4 et 5
 - Jour 3 : Modules 6, 7 et 8
-- Jour 4 : Modules 9, 10 et 11
+- Jour 4 : Modules 9, 10 et 11  
 # Tous les labs
 Les ateliers *goDeploy* ne sont pas nécessaires (voire pénalisant pour la partie Azure AD) avec ce stage.  
 Si les stagiaires ont des problèmes, par exemple pour se connecter en RDP à une machine virtuelle, on purra se référer aux [procédures de mise en place d'un environnement d'ateliers ib sur un compte Azure](https://github.com/renaudwangler/ib/blob/master/extra/ibAzureLabs.md#mise-en-place-dun-environnement-dateliers-ib-sur-un-compte-azure)  
