@@ -5,12 +5,22 @@
     <meta charset="utf-8">
     <title>{{ page.name | remove: '.md' }}</title>
     <link rel="stylesheet" href="{{ site.github.url }}/inclus/ib-apts.css">
+    <link rel="shortcut icon" href="{{ site.github.url }}/inclus/favicon.ico">
   </head>
   <body>
     <div id='nav'>
       <h2>{{ page.title }}</h2> <a href="/../..">Home</a>
     </div>
     {{ content }}
+    {% if page.Azure %}
+      Paragraphe Azure
+    {% endif %}
+    {% if page.o365 %}
+      Paragraphe o365
+    {% endif %}
+    {% if page.goDeploy %}
+      Paragraphe goDeploy
+    {% endif %}
     <div id='foot'>
       {% include outro.html %}
     </div>
