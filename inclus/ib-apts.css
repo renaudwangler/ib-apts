@@ -30,3 +30,4 @@ div.grey h3 {display:block;width:100%;text-align:left;margin-top:5px;margin-bott
 div.grey h3:hover {cursor: pointer;}
 div.grey strong, div.grey b { color:aliceblue;}
 div.grey a,div.grey a:visited {color:darkred;font-weight:bold;}
+div#lastEdit {float:right;margin-right:10px;font-size:small;color:gray;}
