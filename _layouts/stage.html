@@ -16,7 +16,10 @@
     </div>
     {{ content }}
     {% if page.Azure %}
-      <div id="Azure" class="grey">{% include Azure.html %}</div>
+      <div id="Azure" class="grey">
+        <h3 class="moins" onclick="switchDiv('Azure-sub',this);">Conseils génériques concernant Azure</h3>
+        <div id="Azure-sub" style="display:none;">{% include Azure.html %}</div>
+      </div>  
     {% endif %}
     {% if page.m365 %}
       <div id="m365" class="grey">{% include m365.html %}</div>
