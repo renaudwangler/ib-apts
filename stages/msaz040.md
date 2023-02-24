@@ -1,6 +1,6 @@
 ---
-ref: 'msaz040'
-title: 'Automatiser les tâches d'administration Windows avec PowerShell'
+ref: msaz040
+title: Automatiser les tâches d'administration Windows avec PowerShell
 goDeploy: true
 Azure: true
 ---
