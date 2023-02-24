@@ -12,6 +12,7 @@ Lien vers les labs officiels MS sur Github : https://github.com/MicrosoftLearnin
 - Jour 3 : Learning path 5, 6 et 7 modules  5, modules 1, 2, 3 et 4
 - Jour 4 : Fin du Learning path 7, Learning path 8
 - Jour 5 : Learning path 9, 10 et 11  
+
 # Démonstration
 Exemple (a fin de démonstration, sans intérêt terrain) de renommage d'une propriété en sortie :  
   `Get-ComputerInfo | select @{l='ComputerName';e={$_.CSName}}|Get-Process`
