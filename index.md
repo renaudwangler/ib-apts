@@ -5,7 +5,6 @@ layout: default
 stringFilters: https://learn.cloudcannon.com/jekyll/string-filters-in-liquid
 themeMSSample: https://github.com/MicrosoftLearning/Jekyll-Theme
 ---
-# ib - Accompagnement Pédagogique et Technique des Stages
 Liste des éléments d'accompagnement disponibles :  
 
 {% assign stages = site.pages | where_exp:'page',"page.url contains '/stages'" | sort:'name' %}
