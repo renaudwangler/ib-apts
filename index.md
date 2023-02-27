@@ -11,4 +11,4 @@ Liste des éléments d'accompagnement disponibles :
 
 [Aide concernant la plateforme d'ateliers en ligne goDeploy](https://github.com/renaudwangler/ib/blob/master/extra/goDeployDoc.md#plateforme-godeploy)  
 [Mise en place d'un environnement d'ateliers ib sur un compte Azure](https://github.com/renaudwangler/ib/blob/master/extra/ibAzureLabs.md#mise-en-place-dun-environnement-dateliers-ib-sur-un-compte-azure)  
-[Compteur de Démarrage/Reprise de stage](https://chrono.html)  
+[Compteur de Démarrage/Reprise de stage](chrono.html)  
