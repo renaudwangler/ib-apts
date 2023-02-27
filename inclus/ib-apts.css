@@ -12,7 +12,7 @@ h3.moins:before {content: '- ';}
 #home table {border-collapse:collapse;font-weight:bold;text-decoration:none;color:#EA690B;margin:0px;margin-bottom:4px;}
 #home td {border:solid 2px #EA690B;padding:2px;}
 #home tr:hover {background-color:gray;color:white;cursor:pointer;}
-#home a {display:block;font-weight:bold;text-decoration:none;color:#EA690B;text-align:center;border:solid 2px #EA690B;padding:2px;margin:0px;}
+#home a, #chronoRef {display:block;font-weight:bold;text-decoration:none;color:#EA690B;text-align:center;border:solid 2px #EA690B;padding:2px;margin:0px;}
 #home td a {border:none;padding:0px;width: 100%;height: 100%;}
 #home td a:hover {background-color:gray;color:white;cursor:pointer;}
 #home td.lastCourse {background-color: lightgrey;}

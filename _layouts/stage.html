@@ -32,7 +32,7 @@
       <h3 class="moins"onclick="switchDiv('goDeploy-sub',this);">Conseils d'animation avec la plateforme goDeploy</h3>
       <div id="goDeploy-sub" style="display:none;">{% include goDeploy.html %}</div></div>
     {% endif %}
-    <a class="cRef" href="chrono.html" id=""chronoRef">Compteur de Démarrage/Reprise de stage</a>
+    <a href="{{ site.github.url }}/chrono.html" id="chronoRef">Compteur de Démarrage/Reprise de stage</a>
     <div id='foot'>
       {% include outro.html %}
       {% if page.editDate %}
