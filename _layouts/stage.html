@@ -18,7 +18,7 @@
     <div id="stageTitle">Accompagnement Pédagogique et Technique pour le stage {{ page.name | remove: '.md' }}</div>
     <div id="intro">
       {% if page.labs != blank}
-      page.labs
+      <li><a href=" https://github.com/MicrosoftLearning/{{page.labs}}">Lien vers les labs officiels MS sur Github</a></li>
       {% endif %}
     </div>
     {{ content }}
