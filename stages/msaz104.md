@@ -1,5 +1,6 @@
 ﻿---
 title: Microsoft Azure - Administration
+labs: 
 Azure: true
 ---
 Le stage est plutôt dense sur 4 jours et s'adresse à des stagiaires qui ont impérativement suivi le msaz900 pour connaitre les principes Cloud et Azure de base.  
