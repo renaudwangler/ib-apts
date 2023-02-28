@@ -1,5 +1,6 @@
 ---
 title: Automatiser les tâches d'administration Windows avec PowerShell
+labs: AZ-040T00-Automating-Administration-with-PowerShell/blob/master/Instructions/Labs
 goDeploy: true
 Azure: true
 editDate: 24/02/2023
