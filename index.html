@@ -8,7 +8,7 @@ Liste des éléments d'accompagnement disponibles :
 {% assign stages = site.pages | where_exp:'page',"page.url contains '/stages'" | sort:'name' %}
 <table>
 {% for stage in stages  %}
-<tr><td><a href="{{ site.github.url }}{{ stage.url }}">{{ stage.name | remove: '.md' }}</a></td><td><a href="{{ site.github.url }}{{ stage.url }}">{{ stage.title }}</a></td></tr>
+<tr id="line-{{ stage.name | remove: '.md' }}"><td><a href="{{ site.github.url }}{{ stage.url }}">{{ stage.name | remove: '.md' }}</a></td><td><a href="{{ site.github.url }}{{ stage.url }}">{{ stage.title }}</a></td></tr>
 {% endfor %}
 </table>
 
