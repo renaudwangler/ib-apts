@@ -1,5 +1,5 @@
 @font-face {font-family: 'Ryker'; src: url('Ryker-Bold.otf')}
-body {padding:10px;color:gray;font-family:tahoma;background-color:#F8F8F8;margin-top:100px;font-family: "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;font-size: 14px;}
+body {padding:10px;color:gray;font-family:Arial, Helvetica, sans-serif;background-color:#F8F8F8;margin-top:100px;font-size: 14px;}
 #head {font-family: 'Ryker'; font-size: 30px; box-shadow: 0 4px 6px rgb(0 0 0 / 10%);height: 90px;width:100%;position: fixed; top: 0px; left:0px;color:#000;text-decoration: underline;display:block;background:white;margin: 0px;padding-left: 10px;padding-top:10px;}
 #head a:nth-child(1) {display:block; width:100px;height:76px;position:absolute;top:10px;right:20px;}
 #head a:nth-child(2) {display:block;width:24px;height:24px;position: absolute;top:0px;right:130px;}
