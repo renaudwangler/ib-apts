@@ -17,7 +17,7 @@
     </div>
     <div id="stageTitle">Accompagnement Pédagogique et Technique pour le stage {{ page.name | remove: '.md' }}</div>
     <div id="intro">
-      {% if page.labs != blank %}
+      {% if page.labs %}
       <li><a href="{{page.labs}}">Lien vers les labs officiels MS sur Github</a></li>
       {% endif %}
     </div>
