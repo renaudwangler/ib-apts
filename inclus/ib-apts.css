@@ -10,7 +10,7 @@ h3{margin-top:1em;margin-bottom:-1em;padding-bottom:0px;}
 h3.plus:before {content: '+ ';}
 h3.moins:before {content: '- ';}
 #home table {border-collapse:collapse;font-weight:bold;text-decoration:none;color:#EA690B;margin:0px;margin-bottom:4px;}
-#home td {border:solid 2px #EA690B;padding:2px;}
+#home td {border:solid 2px #EA690B;padding:6px;}
 #home tr:hover,#home tr:hover a {background-color:gray;color:white;cursor:pointer;}
 #home a, #chronoRef {display:block;font-weight:bold;text-decoration:none;color:#EA690B;text-align:center;border:solid 2px #EA690B;padding:2px;margin:0px;}
 #chronoRef {margin:0px;margin-top:20px;}
