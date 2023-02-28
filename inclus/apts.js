@@ -6,3 +6,6 @@ function switchDiv(divId,titre) {
   else {
     div.style.display='none'
     titre.className='moins';}}
+    
+//Variable locale pour mettre en avant le dernier stage consulté
+localStorage.setItem('ibAPTSlastcourseView',pageName);
