@@ -2,6 +2,7 @@
 title: Microsoft 365 - Administration
 goDeploy: true
 m365: true
+labs: https://github.com/renaudwangler/ib/tree/master/labs/msms030
 lastEdit: Janvier 2023
 ---
 Il s'agit d'un stage ib, repris d'un ancien stage officiel qui n'est plus à l'offre MS.

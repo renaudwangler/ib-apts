@@ -5,8 +5,7 @@ goDeploy: true
 Azure: true
 editDate: 24/02/2023
 ---
-Il s'agit bien d'une formation officielle, mais qui n'a pas de certification associée. Son contenu est orienté terrain et assez pragmatique !  
-Lien vers les labs officiels MS sur Github : https://github.com/MicrosoftLearning/AZ-040T00-Automating-Administration-with-PowerShell/blob/master/Instructions/Labs .
+Il s'agit bien d'une formation officielle, mais qui n'a pas de certification associée. Son contenu est orienté terrain et assez pragmatique !
 # Timing exemple
 - Jour 1 : Introduction + Learning Path 1 et 2
 - Jour 2 : Learning path 3 et 4

@@ -9,7 +9,7 @@ Attention à la gestion du temps : il s'agit d'un stage de 4 jours, avec des pet
 Le lien de la vidéo sur Azure AD Connect Seamless SSO est faux et amène à une vidéo expliquant le SSO applicatif. Préférer le lien suivant : https://www.youtube.com/watch?v=PyeAC85Gm7w (Microsoft Mechanics).  
 Ceci étant, vu le thème du module, il serait bien plus pertinent de parler à ce moment du SSO (et pas du "Seamless" SSO).
 # Module 10
-OME a été remplçé par Purview Message Encryption ([comparaison](https://docs.microsoft.com/en-us/microsoft-365/compliance/ome-version-comparison?view=o365-worldwide#side-by-side-comparison-of-message-encryption-features-and-capabilities))  
+OME a été remplaçé par Purview Message Encryption ([comparaison](https://docs.microsoft.com/en-us/microsoft-365/compliance/ome-version-comparison?view=o365-worldwide#side-by-side-comparison-of-message-encryption-features-and-capabilities))  
 A noter : [Pas de révocation possible si message non consommé par le biais d'un lien](https://docs.microsoft.com/en-us/microsoft-365/compliance/revoke-ome-encrypted-mail?view=o365-worldwide#encrypted-emails-that-you-can-revoke)...  
 # Exemple de Timing (5 jours)
 - Jour 1 : Intro + modules 1 et 2

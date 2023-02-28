@@ -2,11 +2,11 @@
 title: Microsoft Azure - Technologies de sécurité
 goDeploy: true
 Azure: true
+labs: https://microsoftlearning.github.io/AZ500-AzureSecurityTechnologies/
 ---
 [Support de stage en Français](https://docs.microsoft.com/fr-fr/training/courses/AZ-500T00?WT.mc_id=ilt_partner_webpage_wwl&ocid=IB1090206#study-guide)  
 [Support de stage en Anglais](https://docs.microsoft.com/en-us/training/courses/AZ-500T00?WT.mc_id=ilt_partner_webpage_wwl&ocid=IB1090206#study-guide)  
 A date (09/2022) les diapositives françaises proposées en téléchargement sont d'une qualité tout à fait médiocre... A éviter donc...  
-[Lien vers les ateliers officiels GitHub](https://microsoftlearning.github.io/AZ500-AzureSecurityTechnologies/)  
 Indiquer aux stagiaires que les **éléments d'introduction des ateliers** (schémas) se retrouvent désormais en introduction des ateliers (github/goDeploy).
 # En direct du [Learning Download Center](https://learningdownloadcenter.microsoft.com/)
 Dans les éléments téléchargeables concernant ce stage, ne pas passer à côté du fichier "AssessmentGuide" qui comprend des liens afin de créer des formulaires/QCM pour chaque module et de les partager aux stagiaires (aprticulièrement pertinent poru de l'animation distancielle).

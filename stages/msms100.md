@@ -2,14 +2,13 @@
 title: Microsoft 365 - Gestion des identités et des services
 goDeploy: true
 m365: true
+labs: https://github.com/MicrosoftLearning/MS-100T00-Microsoft-365-Identity-and-Services/tree/master/Instructions/Labs
 ---
 <div id="conseils">
   Il ne s'agit pas d'un stage d'introduction ou de <i>premier niveau</i> : Comme il prépare l'apprenant au métier d'administrateur Microsoft 365, il exige des prérequis non négligeables.
   Au vu des différences pédagigues entre les US et l'Europe, il pourra être pertinent de parler des <i>Check your knowledge</i> lors de l'apparition de la première diapositive puis de masquer les autres (Les diapositives "discussions" pourront également être remplaçées).
   <h3>Module 4</h3>
   <a href="https://youtu.be/tBc9ophAYCc" target="_blank">La PowerPlatform "en vrai"</a> : exemple d'utilisation (vidéo marketing MS) de la powerPlatform dans le contexte réel d'un employé de sécurité à l'aéroport.  
-  <h3>Ateliers - source</h3>
-  <a href="https://github.com/MicrosoftLearning/MS-100T00-Microsoft-365-Identity-and-Services/tree/master/Instructions/Labs" target="_blank">Source des ateliers MS sur GitHub</a>  
   <h3>Ateliers - Attention</h3>
   Les stagiaires vont avoir besoin de travailler en binôme pour faire des tests de partage externe (mise en place dès le Lab1 pour être prèt(e)s quand Teams arrive).
   On pourra donc former des binômes ou leur donner les identitifants du compte de démonstration de l'animateur pour qu'ils puissent travailler en toute autonomie (plus pertinent pour les sessions distantes).
