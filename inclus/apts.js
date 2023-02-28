@@ -6,6 +6,11 @@ function switchDiv(divId,titre) {
   else {
     div.style.display='none'
     titre.className='moins';}}
-    
-//Variable locale pour mettre en avant le dernier stage consulté
-localStorage.setItem('ibAPTSlastcourseView',pageName);
+
+function indexLoad() {
+  if (localStorage.getItem('ibAPTSlastcourseView') !== undefined) {
+    document.getElementById(localStorage.getItem('ibAPTSlastcourseView')).className='lastCourse';}}
+
+function stageLoad(pageName) {
+  localStorage.setItem('ibAPTSlastcourseView',pageName);
+}
