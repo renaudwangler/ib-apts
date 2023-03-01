@@ -8,7 +8,7 @@ editDate: 24/02/2023
 Il s'agit bien d'une formation officielle, mais qui n'a pas de certification associée. Son contenu est orienté terrain et assez pragmatique !
 # Timing exemple
 - Jour 1 : Introduction + Learning Path 1 et 2
-- Jour 2 : Learning path 3 et 4
+- Jour 2 : Learning path 3 et 4 (les LP ne sont pas du tout équilibrés : ne pas hésiter à s'arreter/déjeuner sur le lab A du LP 3 par exemple)
 - Jour 3 : Learning path 5, 6 et 7 modules  5, modules 1, 2, 3 et 4
 - Jour 4 : Fin du Learning path 7, Learning path 8
 - Jour 5 : Learning path 9, 10 et 11  
