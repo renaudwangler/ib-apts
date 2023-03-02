@@ -20,11 +20,10 @@ document.querySelectorAll("code").forEach((codeBlock) => {
   // only add button if browser supports Clipboard API
   if (navigator.clipboard) {
     let copyButton = document.createElement("button");
-    code2copy = codeBlock.innerText;
     copyButton.innerText = 'copier';
     codeBlock.appendChild(copyButton);
     copyButton.addEventListener("click", async () => {
-      await copyCode(code2copy);});}
+      await copyCode(codeBlock.innerText);});}
 });
 }
 async function copyCode(code2copy) {
