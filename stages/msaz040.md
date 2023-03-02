@@ -3,7 +3,7 @@ title: Automatiser les tâches d'administration Windows avec PowerShell
 labs: https://github.com/MicrosoftLearning/AZ-040T00-Automating-Administration-with-PowerShell/blob/master/Instructions/Labs
 goDeploy: true
 Azure: true
-editDate: 24/02/2023
+editDate: 02/03/2023
 ---
 Il s'agit bien d'une formation officielle, mais qui n'a pas de certification associée. Son contenu est orienté terrain et assez pragmatique !
 # Timing exemple
