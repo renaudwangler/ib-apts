@@ -23,7 +23,7 @@ document.querySelectorAll("code").forEach((codeBlock) => {
     copyButton.innerText = 'copier';
     codeBlock.appendChild(copyButton);
     copyButton.addEventListener("click", async () => {
-      await copyCode(codeBlock.innerText);});}
+      await copyCode(codeBlock.innerText.slice(0,-6));});}
 });
 }
 async function copyCode(code2copy) {
