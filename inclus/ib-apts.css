@@ -33,4 +33,5 @@ div.grey strong, div.grey b { color:aliceblue;}
 div.grey a,div.grey a:visited {color:darkred;font-weight:bold;}
 div#lastEdit {float:right;margin-right:10px;font-size:small;color:gray;}
 div#stageTitle {width:100%;text-align: center;font-family: 'Ryker'; font-size: large;margin:0px;margin-bottom: 10px;}
-.copyBtn {margin:0px;margin-left: 5px;}
+.copyBtn {margin:0px;margin-left: 5px;outline: none;cursor: pointer;line-height: 1;border-radius: 50%;transition-property: background-color,border-color,color,box-shadow,filter;transition-duration: .3s;border: 1px solid transparent;color: #616467;box-shadow: inset 0 0 0 2px #616467;background-color: transparent;}
+.copyBtn:hover{color: #fff;background-color: #616467;}
