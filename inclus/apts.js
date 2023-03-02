@@ -21,6 +21,7 @@ document.querySelectorAll("code").forEach((codeBlock) => {
   if (navigator.clipboard) {
     let copyButton = document.createElement("button");
     copyButton.innerText = 'copier';
+    copyButton.className = 'copyBtn';
     codeBlock.appendChild(copyButton);
     copyButton.addEventListener("click", async () => {
       await copyCode(codeBlock.innerText.slice(0,-6));});}

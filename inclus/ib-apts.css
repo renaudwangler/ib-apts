@@ -33,3 +33,4 @@ div.grey strong, div.grey b { color:aliceblue;}
 div.grey a,div.grey a:visited {color:darkred;font-weight:bold;}
 div#lastEdit {float:right;margin-right:10px;font-size:small;color:gray;}
 div#stageTitle {width:100%;text-align: center;font-family: 'Ryker'; font-size: large;margin:0px;margin-bottom: 10px;}
+.copyBtn {margin:0px;margin-left: 5px;}
