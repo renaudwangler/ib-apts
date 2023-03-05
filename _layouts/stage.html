@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="{{ site.github.url }}/inclus/favicon.ico">
     <base target="_blank">
   </head>
-  <body id="stage" onload="stageLoad('line-{{ page.name | remove: '.md' }}');">
+  <body id="stage">
     <div id="head">
       {{ page.name | remove: '.md' }} - {{ page.title }}
       <a href="/ib-apts" title="Retour à la liste." id="back" target="_self"><img src="{{ site.github.url }}/inclus/logo_ibcegos.png" alt="Retour" style="width:100px;height:72px;"></a>
@@ -58,6 +58,7 @@
     </div>
     <script>
       window.onload = addCopyButton();
+      stageLoad('line-{{ page.name | remove: '.md'}}');
   </script>
   </body>
 </html>
