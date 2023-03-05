@@ -9,11 +9,10 @@ function switchDiv(divId,titre) {
 
 function indexLoad() {
   if (localStorage.getItem('ibAPTSlastcourseView') !== undefined) {
-    document.getElementById('line-'+localStorage.getItem('ibAPTSlastcourseView')).className='lastCourse';}}
+    document.getElementById(localStorage.getItem('ibAPTSlastcourseView')).className='lastCourse';}}
 
 function stageLoad(pageName) {
   localStorage.setItem('ibAPTSlastcourseView',pageName);
-  console.log(pageName);
 }
 
 function addCopyButton() {
