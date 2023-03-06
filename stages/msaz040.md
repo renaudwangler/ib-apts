@@ -23,3 +23,6 @@ Le contenu proposé par goDeploy correspond bien plus aux corrigés. Certains st
 Il pourra être utile de redémarrer le service de ceritificats sur lon-dc1 en cas de soucis pour obtenir le certificat de signature de code :
 - Dans l'outil d'administration "**Certification Authority**", clic droit sur "**Adatum CA**", "**All tasks/stop service**" puis "**All tasks/Start service**"
 - ou (mieux) ```invoke-command -computerName lon-dc1 -scriptBlock {restart-service certsvc}```
+# Astuces et rappels divers
+- Convertir une chine en décimal : `$valeur='10';$valeur+1;[decimal]$valeur+1`
+- Pédagogiquement, il est pertinent de construire des exemples et d'éviter les $variable et autres $test...
