@@ -17,5 +17,5 @@ Les variables disponibles dans l'en-tête de chaque stage
 - **editDate:** Afficher la date de dernière édition d'un APTS dans son pied de page.
 
 # Remarques
-Les balises de code se voient adjointe un bouton pour faciliter la copie dudit code.  
+Les balises de code se voient adjointes un bouton pour faciliter la copie dudit code.  
 Les liens sur les pages de stage sont automatiquement ouverts dans un nouvel onglet.  
