@@ -3,7 +3,7 @@ title: Microsoft Azure - Administration
 labs: https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator/
 labsFR: https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator.fr-fr/
 Azure: true
-lastEdit: 06/03/2023
+editDate: 06/03/2023
 ---
 Le stage est plutôt dense sur 4 jours et s'adresse à des stagiaires qui ont impérativement suivi le msaz900 pour connaitre les principes Cloud et Azure de base.  
 Le cas échéant, renvoyer les stagiaires sur le az-900 sur MSLearn.
