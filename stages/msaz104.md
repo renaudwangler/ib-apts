@@ -3,6 +3,7 @@ title: Microsoft Azure - Administration
 labs: https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator/
 labsFR: https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator.fr-fr/
 Azure: true
+lastEdit: 06/03/2023
 ---
 Le stage est plutôt dense sur 4 jours et s'adresse à des stagiaires qui ont impérativement suivi le msaz900 pour connaitre les principes Cloud et Azure de base.  
 Le cas échéant, renvoyer les stagiaires sur le az-900 sur MSLearn.
@@ -13,13 +14,13 @@ Dans les éléments téléchargeables concernant ce stage, ne pas passer à côt
 - Le fichier "AssessmentGuide" qui comprend des liens afin de créer des formulaires/QCM pour chaque module et de les partager aux stagiaires (particulièrement pertinent poru de l'animation distancielle).
 - Un changelog très complet.
 # Timing exemple
-- Jour 1 : Introduction modules 1 et 2
-- Jour 2 : Modules 3,4 et 5
-- Jour 3 : Modules 6, 7 et 8
-- Jour 4 : Modules 9, 10 et 11  
+- Jour 1 : Introduction Learning Path 1, repas, LP 2 et 3
+- Jour 2 : LP 4, 5 et 6
+- Jour 3 : LP 7, 8 et 9 modules 1 et 2
+- Jour 4 : Fin LP 9, LP 10 et 11  
 
 # Tous les labs
-Les ateliers *goDeploy* ne sont pas nécessaires (voire pénalisant pour la partie Azure AD) avec ce stage.  
+Les ateliers *goDeploy* ne sont pas nécessaires avec ce stage.  
 A voir aussi : [Simulation intéractive de tous les ateliers az-104](https://mslabs.cloudguides.com/guides/AZ-104%20Exam%20Guide%20-%20Microsoft%20Azure%20Administrator).  
 Expliquer la procédure de nettoyage consistant à supprimer le Resource Group, souvent plus pertinente que les commandes fournies.
 # Atelier 2
