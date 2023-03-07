@@ -22,6 +22,8 @@ Dans les éléments téléchargeables concernant ce stage, ne pas passer à côt
 # Tous les labs
 Les ateliers *goDeploy* sont désormais nécessaires car l'éditeur ne fournit plus de Pass Azure pour les stages.  
 A voir aussi : [Simulation intéractive de tous les ateliers az-104](https://mslabs.cloudguides.com/guides/AZ-104%20Exam%20Guide%20-%20Microsoft%20Azure%20Administrator).  
+# Atelier 1
+**Tâche 3:** il pourra être impossible de créer un nouveau tenant AZure AD dans l'environnement goDeploy. Réaliser alors la tâche 4 en invitant un autre email (adresse personnelle par exemple).
 # Atelier 2
 Si des stagiaires ont utilisé la **procédures de mise en place d'un environnement d'ateliers ib sur un compte Azure**, la stratégie (Azure Policy) travaillera sur le resource group *ibLabs* qui est vérouillé : inviter à supprimer le verrou (*lock*) pour faire le ménage des stratégies.
 # Atelier 6
