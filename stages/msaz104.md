@@ -20,7 +20,7 @@ Dans les éléments téléchargeables concernant ce stage, ne pas passer à côt
 - Jour 4 : Fin LP 9, LP 10 et 11  
 
 # Tous les labs
-Les ateliers *goDeploy* ne sont pas nécessaires avec ce stage.  
+Les ateliers *goDeploy* sont désormais nécessaire car l'éditeur ne fournit plus de Pass Azure pour les stages.  
 A voir aussi : [Simulation intéractive de tous les ateliers az-104](https://mslabs.cloudguides.com/guides/AZ-104%20Exam%20Guide%20-%20Microsoft%20Azure%20Administrator).  
 Expliquer la procédure de nettoyage consistant à supprimer le Resource Group, souvent plus pertinente que les commandes fournies.
 # Atelier 2
