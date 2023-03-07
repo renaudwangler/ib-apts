@@ -3,15 +3,15 @@ title: Microsoft Azure - Administration
 labs: https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator/
 labsFR: https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator.fr-fr/
 Azure: true
-editDate: 06/03/2023
+editDate: 07/03/2023
 ---
 Le stage est plutôt dense sur 4 jours et s'adresse à des stagiaires qui ont impérativement suivi le msaz900 pour connaitre les principes Cloud et Azure de base.  
-Le cas échéant, renvoyer les stagiaires sur le az-900 sur MSLearn.
+Le cas échéant, renvoyer les stagiaires sur le [az-900 sur MSLearn](https://learn.microsoft.com/en-us/training/courses/az-900t00).
 # En direct du [Learning Download Center](https://learningdownloadcenter.microsoft.com/)
 Dans les éléments téléchargeables concernant ce stage, ne pas passer à côté de :
 - Le "Course Datasheet" qui contient des relations entre le contenu du stage en salle et les liens MSLearn correspondant.
 - Le fichier "Demonstrations" qui, comme son nom l'indique, contient le déroulé des diverses démonstrations utilisées dans le stage.
-- Le fichier "AssessmentGuide" qui comprend des liens afin de créer des formulaires/QCM pour chaque module et de les partager aux stagiaires (particulièrement pertinent poru de l'animation distancielle).
+- Le fichier "AssessmentGuide" qui comprend des liens afin de créer des formulaires/QCM pour chaque module et de les partager aux stagiaires (nettement moins utile depuis la présence systèmatique de *Knowledge check* sur MSLearn).
 - Un changelog très complet.
 # Timing exemple
 - Jour 1 : Introduction Learning Path 1, repas, LP 2 et 3
@@ -20,13 +20,10 @@ Dans les éléments téléchargeables concernant ce stage, ne pas passer à côt
 - Jour 4 : Fin LP 9, LP 10 et 11  
 
 # Tous les labs
-Les ateliers *goDeploy* sont désormais nécessaire car l'éditeur ne fournit plus de Pass Azure pour les stages.  
+Les ateliers *goDeploy* sont désormais nécessaires car l'éditeur ne fournit plus de Pass Azure pour les stages.  
 A voir aussi : [Simulation intéractive de tous les ateliers az-104](https://mslabs.cloudguides.com/guides/AZ-104%20Exam%20Guide%20-%20Microsoft%20Azure%20Administrator).  
-Expliquer la procédure de nettoyage consistant à supprimer le Resource Group, souvent plus pertinente que les commandes fournies.
 # Atelier 2
-Pour les stagiaires ayant utilisé la **procédures de mise en place d'un environnement d'ateliers ib sur un compte Azure**, la stratégie (AZure Policy) travaillera sur le resource group *ibLabs* qui est vérouillé : inviter à supprimer le verrou (*lock*) pour faire le ménage des stratégies.
-# Atelier 5
-Pour éviter les limitations du Pass Azure, conseiller les régions **eastus** et **westus** (et rappeler que les crochets **[** et **]** ne sont pas à conserver.
+Si des stagiaires ont utilisé la **procédures de mise en place d'un environnement d'ateliers ib sur un compte Azure**, la stratégie (Azure Policy) travaillera sur le resource group *ibLabs* qui est vérouillé : inviter à supprimer le verrou (*lock*) pour faire le ménage des stratégies.
 # Atelier 6
 Il semblerait que, de manière aléatoire, le "network watcher" pose des problèmes dans certaines régions avec les limitations des Pass azure...  
 Voici un code Powershell permettant de réaliser les test Network Watcher dans tous les cas :
