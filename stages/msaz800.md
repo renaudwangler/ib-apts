@@ -3,6 +3,7 @@ title: Windows Server - Administration de base de l'infrastructure hybride
 goDeploy: true
 Azure: true
 labs: https://microsoftlearning.github.io/AZ-800-Administering-Windows-Server-Hybrid-Core-Infrastructure/
+editDate: 07/03/2023
 ---
 # Lien vers le stage sur MS-Learn
 - [Administering Windows Server Hybrid Core Infrastructure](https://learn.microsoft.com/en-us/training/courses/az-800t00)
@@ -13,7 +14,7 @@ labs: https://microsoftlearning.github.io/AZ-800-Administering-Windows-Server-Hy
 - Jour 3 : fin LP3, LP4 modules 1 à 5 (jeux de diapos 6, 7 et premier module du 8)
 - Jour 4 : fin LP4 et LP5 (jeux de diapos 8, 9 et 10)  
 
-  >**Nota :** Le timing officiel/idéal MS indique 1550 minutes (envion 26 heures), 1450 sans "reviews" (environ 24h)
+  >**Nota :** Le timing officiel/idéal MS indique 1550 minutes (envion 26 heures), 1450 sans "reviews" (environ 24h) ... Stage dense !
 # Learning Path 1 - Module 2
 La diapositive N° 21 est erronnée : la fonctionnalité "Seamless SSO" n'a aucun sens avec du ADFS. Elle peut fluidifier le logon utilisateur avec le Password hasj Sync ou le Path Through Authentication.  
 Les titres des Diapositives N° 21,22 et 23 devraient être "Implement Seamless SSO and PTA"  
