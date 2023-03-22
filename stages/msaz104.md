@@ -19,6 +19,9 @@ Dans les éléments téléchargeables concernant ce stage, ne pas passer à côt
 - Jour 3 : LP 7, 8 et 9 modules 1 et 2
 - Jour 4 : Fin LP 9, LP 10 et 11  
 
+# Learning Path 6
+Le dernier thème présent dans les diapositives (*Network Watcher*) est, sur learn, traité dans le LP 11
+
 # Tous les labs
 Les ateliers *goDeploy* sont désormais nécessaires car l'éditeur ne fournit plus de Pass Azure pour les stages.  
 A voir aussi : [Simulation intéractive de tous les ateliers az-104](https://mslabs.cloudguides.com/guides/AZ-104%20Exam%20Guide%20-%20Microsoft%20Azure%20Administrator).  
