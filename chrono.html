@@ -92,7 +92,7 @@
     <div class="close" onmouseover="this.className='closeOn';" onmouseout="this.className='close';" onclick="document.getElementById('parameters').className='off';">&times;</div>
     <h1>Paramètrage</h1>
     <div class="text">
-      Afficher <input type="radio" name="text" id="demarrage" value="Démarrage" checked><label for="demarrage">Démarrage</label> ou <input type="radio" name="text" id="reprise" value="Reprise"><label for="reprise">Reprise</label></div>
+      Afficher <input type="radio" name="text" id="demarrage" value="Démarrage"><label for="demarrage">Démarrage</label> ou <input type="radio" name="text" id="reprise" value="Reprise" checked><label for="reprise">Reprise</label></div>
     <table><tr><td><input type="radio" name="mode" id="duree" value="duree" checked>Choisir la durée du minuteur :</td><td><input type="number" id="dureeVal" value="10" min="1" max="120" onfocus="document.getElementById('duree').checked=true;" onkeydown="if(event.keyCode===13) timerRestart();"> minutes</td></tr>
     <tr><td colspan="2">OU</td></tr>
     <tr><td><input type="radio" name="mode" id="heure" value="heure">Choisir l'heure de reprise :</td><td><input type="time" id="heureVal" onfocus="document.getElementById('heure').checked=true;"></td></tr></table>
@@ -106,7 +106,7 @@
 
 <script language="javascript">
   //Lancement du compteur : A faire = passer d'un décompte de secondes à un décompte après saisie hoiraire.
-  var TIME_LIMIT=600, start='Démarrage', FULL_DASH_ARRAY=283;
+  var TIME_LIMIT=600, start='Reprise', FULL_DASH_ARRAY=283;
   let timePassed=0, timeLeft=TIME_LIMIT;
   let curDate=new Date();
   let curTime=curDate.getHours()+":"+curDate.getMinutes();
