@@ -43,4 +43,4 @@ Par exemple, les journaux (logs) sont filtrés pour affichage en se basant sur l
 # Atelier 13
 S'il est impossible d'ajouter (de voir) la VM depuis le workspace Log Analytics, procéder à l'onboard depuis le menu "Logs" de la VM...
 # Ateliers goDeploy
-A priori pas de limitation sur le nombre de lancement des labs "Cloud Shared" de cette formation (la seule limitation est la durée d'accès de 6 mois aux ateliers).
+Limitation de 5 lancements des ateliers "Cloud Shared" de cette formation.
