@@ -9,7 +9,7 @@ Son contenu est pertinent et a été largement mis à jour par ib :
 - Jeu de diapositives complet mise à jour
 - Ateliers mis à jour 
 
-**ATTENTION** : Plus de compte de test : il faudra que les stagiaires acceptent d'entrer leurs informations de facturation (CB). m$eme si celles-ci ne sont pas consommée (la prcodéure inclut la désactivation de la facturation après la période de test), il est de notre rôle de dédramatiser l'aopération !
+**ATTENTION** : Plus de compte de test : il faudra que les stagiaires acceptent d'entrer leurs informations de facturation (CB). meme si celles-ci ne sont pas consommées (la prcodéure inclut la désactivation de la facturation après la période de test), il est de notre rôle de dédramatiser l'opération !
 
 Globalement, le contenu de ce stage est intéressant et pragmatique : préparer un admin terrain plus qu'à la certification...
 # Déroulé des ateliers
