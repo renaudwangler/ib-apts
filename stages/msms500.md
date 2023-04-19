@@ -32,6 +32,8 @@ A noter : [Pas de révocation possible si message non consommé par le biais d'u
 |Office ATP|Defender For Office|Safe Links, Safe Attachements, ZAP etc...|
 |Azure ATP|Defender for Identity|Analyse hybride|
 |Azure ATA|Aucun|Fin de support => Transition vers Defender for Identity|
+
+**Attention : ** Il semblerait que le mot de passe des autres utilisateurs ne soit pas le même que celui de l'administrateur principal (MOD admin). Il faudra reseter le mot de passe de chaque utilisateur à tester.
  
 Créer une nouvelle [Info sensible](https://docs.microsoft.com/en-us/microsoft-365/compliance/create-a-custom-sensitive-information-type?view=o365-worldwide#create-a-custom-sensitive-information-type)  
   
