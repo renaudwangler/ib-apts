@@ -24,6 +24,6 @@ Si impossible de voir le rôle éligible, attendre et ressayer le lendemain : la
   <li><b>Mardi :</b> Learning path 3 et 4</li>
   <li><b>Mercredi :</b> Learning path 5 et 6</li>
   <li><b>Jeudi :</b> Learning path 7 et 8</li>
-  <li><b>Vendredi :</b> Learning path 9, 10 et 11</li>
+  <li><b>Vendredi :</b> Learning path 9</li>
 </ul>
 </div>
