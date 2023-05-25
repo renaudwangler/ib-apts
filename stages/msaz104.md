@@ -29,7 +29,7 @@ A voir aussi : [Simulation intéractive de tous les ateliers az-104](https://msl
 **Tâche 3:** il pourra être impossible de créer un nouveau tenant AZure AD dans l'environnement goDeploy. Réaliser alors la tâche 4 en invitant un autre email (adresse personnelle par exemple).
 # Atelier 2
 Si des stagiaires ont utilisé la **procédures de mise en place d'un environnement d'ateliers ib sur un compte Azure**, la stratégie (Azure Policy) travaillera sur le resource group *ibLabs* qui est vérouillé : inviter à supprimer le verrou (*lock*) pour faire le ménage des stratégies.
-# Atelier 6
+# Atelier 6 (Info obsolète)
 Il semblerait que, de manière aléatoire, le "network watcher" pose des problèmes dans certaines régions avec les limitations des Pass azure...  
 Voici un code Powershell permettant de réaliser les test Network Watcher dans tous les cas :
 ```
