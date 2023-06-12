@@ -17,15 +17,6 @@ Au vu des différences pédagigues entre les US et l'Europe, il pourra être per
 <li>Jour 4 : Modules 7 et 8 (attention, pas de lab sur le module 8...)
 <li>Jour 5 : Modules 9 et 10 (attention, pas de lab sur le module 9...)
 </ul>
-  <h3>Transition de terminologie</h3>
-  Pour rappel, suite à l'arrivée de l'offre de sécurité globale Cloud MS "Defender", le nom des anciennes technologies qui ont été remplaçées:
-  <table><tr><th>Ancien</th><th>Nouveau</th></tr>
-  <tr><td>Defender ATP</td><td>Defender for Endpoint</td>/tr>
-  <tr><td>Office ATP</td><td>Defender For Office</td></tr>
-  <tr><td>Azure ATP</td><td>Defender for Identity</td><</tr>
-  <tr><td>Azure ATA</td><td>Transition vers Defender for Identity</td></tr>
-    <tr><td>Azure Information Protection</td><td>Microsoft Information Protection</td></tr>
-  </table>
   <h3>Ateliers en général</h3>
   De nombreux points de latence importante sont présents : conseiller aux stagiaires de tirer parti du fait que les labs se suivent en testant les fonctionnalités qui ne marchent pas immédiatement la (demi)journée suivante.
  <h3>Lab 1</h3>
