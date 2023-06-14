@@ -1,4 +1,5 @@
-﻿# Fichiers de stage
+![dernière compilation](https://github.com/renaudwangler/ib-apts/actions/workflows/jekyll-gh-pages.yml/badge.svg)
+# Fichiers de stage
 Ajouter un fichier (avec l'extension **.md**) l'ajoute dans le menu de sélection.  
 
 Le contenu des stages est rédigé en [format markdown](https://docs.github.com/fr/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).  
