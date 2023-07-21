@@ -14,7 +14,11 @@ Exercice 2, tâche 3 : Contrairement à ce qui est indiqué à date, c'est la fo
 Exercice 2, tâche 4 : cette tâche est complètement inutile, au vu du mode de fonctionnement (agent = synchrone) du Password Writeback qui n'a, au final, rien à voir avec la synchronisation Entra Id connect.
 # Lab 7
 Il sera important que l'environnement ait "proprement" démarré (DC puis toutes autres machines avec carte réseau en domaine) pour que cet atelier fonctionne comme attendu...  
-Je n'ai pas réussi à faire fonctionner le test final sur l'environnement goDeploy... Problème lié au DHCOP non atteint par la VM sea-ws4 créée sur sea-svr2
+Je n'ai pas réussi à faire fonctionner le test final sur l'environnement goDeploy... Problème lié au DHCOP non atteint par la VM sea-ws4 créée
+sur sea-svr2
+# Lab 8
+**Exercice 1** : Au *reset* de la machine, elle n'a pas récupéré d'adresse IP (et donc pas de connectivité Internet) l'empèchant de contacter les services MS pour réaliser l'installation autopilot.
+**Exercice 2** : Cet exercice s'appuie sur une configuration non supportée (Vm avec TMP virtuelle) pour le reset et ne pourra donc aboutir
 # Timing suggéré
 - Lundi : Introdution, Learning Path 1 et 2
 - Mardi : Learning path 3 et 4
