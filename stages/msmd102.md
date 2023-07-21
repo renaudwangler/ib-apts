@@ -12,6 +12,9 @@ De nombreux points de latence importante sont présents : Prévenir les stagiair
 # Lab 5
 Exercice 2, tâche 3 : Contrairement à ce qui est indiqué à date, c'est la fonctionnalité de Password Writeback qui est testée et non SSPR...
 Exercice 2, tâche 4 : cette tâche est complètement inutile, au vu du mode de fonctionnement (agent = synchrone) du Password Writeback qui n'a, au final, rien à voir avec la synchronisation Entra Id connect.
+# Lab 7
+Il sera important que l'environnement ait "proprement" démarré (DC puis toutes autres machines avec carte réseau en domaine) pour que cet atelier fonctionne comme attendu...  
+Je n'ai pas réussi à faire fonctionner le test final sur l'environnement goDeploy... Problème lié au DHCOP non atteint par la VM sea-ws4 créée sur sea-svr2
 # Timing suggéré
 - Lundi : Introdution, Learning Path 1 et 2
 - Mardi : Learning path 3 et 4
