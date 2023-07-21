@@ -17,8 +17,8 @@ Il sera important que l'environnement ait "proprement" démarré (DC puis toutes
 Je n'ai pas réussi à faire fonctionner le test final sur l'environnement goDeploy... Problème lié au DHCOP non atteint par la VM sea-ws4 créée
 sur sea-svr2
 # Lab 8
-**Exercice 1** : Au *reset* de la machine, elle n'a pas récupéré d'adresse IP (et donc pas de connectivité Internet) l'empèchant de contacter les services MS pour réaliser l'installation autopilot.
-**Exercice 2** : Cet exercice s'appuie sur une configuration non supportée (Vm avec TMP virtuelle) pour le reset et ne pourra donc aboutir
+**Exercice 1** : Au *reset* de la machine, elle n'a pas récupéré d'adresse IP (et donc pas de connectivité Internet) l'empèchant de contacter les services MS pour réaliser l'installation autopilot.  
+**Exercice 2** : Cet exercice s'appuie sur une configuration non supportée (Vm avec TPM virtuelle) pour le reset et ne pourra donc aboutir  
 # Timing suggéré
 - Lundi : Introdution, Learning Path 1 et 2
 - Mardi : Learning path 3 et 4
