@@ -34,6 +34,8 @@ Sinon, il est possible d'utiliser une application de vérification sur smartphon
 La supression de l'Azure AD auquel est associé le test de licence Azure AD Premium ne pourra se faire dans le délai de la formation.
 # Atelier 10
 Bien utiliser (installer si nécessaire) le framework .Net 4.7.2 (et pas 5.0)
+# Atelier 11
+Dans l'environnement goDeploy, Defender for SQL étant déjà activé au préalable au niveau de l'abonnement, il est possible et probable qu'aucune recommandation n'apparaisse quant au statut des bases de données, même en attendant plus que le temps conseillé.
 # Atelier 6 (sur goDeploy)
 La mise en place de la haute disponibilité de la PTA telle que décrite dans le lab goDeploy n'est absolument pas pertinente : la seconde installation de "Azure AD Connect" désactive la première.  
 La bonne manière de faire est d'installer et connecter uniquement un second connecteur PTA ([voir documentation](https://learn.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-pta-quick-start#step-4-ensure-high-availability)).  
