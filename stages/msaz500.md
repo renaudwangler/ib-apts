@@ -46,3 +46,5 @@ Par exemple, les journaux (logs) sont filtrés pour affichage en se basant sur l
 S'il est impossible d'ajouter (de voir) la VM depuis le workspace Log Analytics, procéder à l'onboard depuis le menu "Logs" de la VM...
 # Ateliers goDeploy
 Limitation de 5 lancements des ateliers "Cloud Shared" de cette formation.
+# Accompagnement Ateliers
+Au vu du timing de la session (on a le temps de le faire), il sera **très pertinent** que l'animateur/trice fasse une revue de détail du contenu des labs (quelle commande Powershell sert à quoi) si besoin **après** la réalisation autonome des ateliers.
