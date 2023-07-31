@@ -11,8 +11,8 @@ Ce stage remplace (en en prenant des modules, parfois mis à jour) les stages ms
 
  
 # Timing suggéré
-- Lundi : Introdution, Learning Path 1 et 2
-- Mardi : Learning path 3 et 4
+- Lundi : Introdution, Learning Path 1 et 2 (modules 1 et 2)
+- Mardi : Fin du learning path1, Learning path 3 et 4
 - Mercredi : Learning path 5 et 6
 - Jeudi : Learning path 7
 - Vendredi : Learning path 8
