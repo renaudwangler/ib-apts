@@ -12,7 +12,26 @@ Ce stage remplace (en en prenant des modules, parfois mis à jour) les stages ms
  
 # Timing suggéré
 - Lundi : Introdution, Learning Path 1 et 2 (modules 1 et 2)
-- Mardi : Fin du learning path1, Learning path 3 et 4
-- Mercredi : Fin des labs du LP 4, Learning path 5 et 6
-- Jeudi : Learning path 7
+- Mardi : Fin du learning path 1, Learning path 3 et 4
+- Mercredi : Fin des labs du LP 4, Learning path 5 et 6 (modules 1 et 2)
+- Jeudi : Fin du Learning path 6, ateliers et Learning path 7
 - Vendredi : Learning path 8 et 9
+# Atelier 1
+- Exercice 2 : remplacer les commandes Powershell des points 7 et 8 par les suivantes :
+  ```pwsh
+  $deletedGroup = get-mgDirectoryDeletedItem -DirectoryObjectId (get-mgDirectoryDeletedGroup|where displayName -eq 'Inside Sales').id  
+  restore-MgDirectoryDeletedItem -DirectoryObjectId $deletedGroup.Id
+# Atelier 2
+- Exercice 2 : points 14 & 22 : le retour de message non délivré cocernera probablement plutôt le fait que les domaines ***.onmicrosoft.com sont désormais considérés comme spam par défaut pour lutter contre le Spam des comptes gratuits
+- Exercice 3 : Dans l'environnement goDeploy, désinstaller la suite office (32bits) déjà présente AVANT de lancer l'installation de 365 Apps...
+# Atelier 3
+- Exercice 1 : Contrairement aux notes présentes, le module powershell historique "msOnline" n'est pas( (plus) utile pour cet atelier
+- Exercice 1, Tâche 4 : En fait, avec Edge, ces précautions ne sont pas utiles.
+# Atelier 6
+- Exercice 1 : l'interface d'ajout de membres au rôle sécurité a été largement simplifiée
+- Exercice 2 : Il est possible que le retour de message non délivré cocerne le fait que les domaines ***.onmicrosoft.com sont désormais considérés comme spam par défaut pour lutter contre le Spam des comptes gratuits...
+- Exercice 5 : pour accéder à la MFA par utilisateurs cliquer sur "legacy per-user MFA" dans la note grise...
+# Atelier 9
+- Exercice 1 :
+- Tâche 1 : l'installation du client des labels unifié est unutile : la fonctionnalité est désormais intégrée dans les versions actuelles de Office.
+- Ne pas hésiter à réaliser la tâche 2 en avance (création/publication du label) pour pouvoir tester le résultat le dernier jour.
