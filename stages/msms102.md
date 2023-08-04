@@ -16,6 +16,11 @@ Ce stage remplace (en en prenant des modules, parfois mis à jour) les stages ms
 - Mercredi : Fin des labs du LP 4, Learning path 5 et 6 (modules 1 et 2)
 - Jeudi : Fin du Learning path 6, ateliers et Learning path 7
 - Vendredi : Learning path 8 et 9
+# Module 7
+- OME a été remplaçé par Purview Message Encryption ([comparaison](https://docs.microsoft.com/en-us/microsoft-365/compliance/ome-version-comparison?view=o365-worldwide#side-by-side-comparison-of-message-encryption-features-and-capabilities))  
+- A noter : [Pas de révocation possible si message non consommé par le biais d'un lien](https://docs.microsoft.com/en-us/microsoft-365/compliance/revoke-ome-encrypted-mail?view=o365-worldwide#encrypted-emails-that-you-can-revoke)...  
+# Module 8
+Il est possible de créer une nouvelle [Info sensible](https://docs.microsoft.com/en-us/microsoft-365/compliance/create-a-custom-sensitive-information-type?view=o365-worldwide#create-a-custom-sensitive-information-type)  
 # Atelier 1
 - Exercice 2 : remplacer les commandes Powershell des points 7 et 8 par les suivantes :
   ```pwsh
