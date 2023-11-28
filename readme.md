@@ -1,4 +1,7 @@
 ![dernière compilation](https://github.com/renaudwangler/ib-apts/actions/workflows/jekyll-gh-pages.yml/badge.svg)
+# Consultation
+[Utiliser cette URL pour consulter la documentation compilée](https://renaudwangler.github.io/ib-apts/)
+
 # Fichiers de stage
 Ajouter un fichier (avec l'extension **.md**) l'ajoute dans le menu de sélection.  
 
