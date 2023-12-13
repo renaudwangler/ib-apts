@@ -39,6 +39,7 @@ $VMNum=$VMs.count*($VMs.count-1); $i=1; foreach ($vmSource in $VMs) {foreach ($v
 $i=1; foreach ($test in $tests) {Write-Progress -Activity "Waiting for results" -Status "$($test.sourceVM) to $($test.destinationVM)" -PercentComplete ($i/$VMNum*100);$i++; While ($test.job.state -notlike 'completed') {Start-Sleep -s 15}; $results+=[pscustomobject]@{sourceVM=$test.sourceVM;targetVM=$test.destinationVM;targetIP=$test.destinationIP;targetPort='3389';result=$test.job.output.connectionStatus;latency=$test.job.output.avglatencyinms}}
 $results|format-table
 ```  
+
 S'il est impossible d'ajouter une table de routage à un subnet depuis ladite table (latence d'affichage), essayer de passer par l'édtion du dubnet...  
 Voici un code Powershell pour réaliser le loadBalancer si les vNet tardent à remonter dans l'interface du portail:
 ```
@@ -47,13 +48,15 @@ $frontIp = New-AzLoadBalancerFrontendIpConfig -Name 'frontEnd' -PublicIpAddress 
 New-AzLoadBalancer -ResourceGroupName 'az104-06-rg1' -Name 'az104-06-lb4' -Location (Get-AzResourceGroup -Name 'az104-06-rg1').location -Sku Standard -FrontendIpConfiguration $frontIp -BackendAddressPool $bePool -LoadBalancingRule $lbRule -Probe $probe
 $bepool = get-AzLoadBalancerBackendAddressPool -ResourceGroupName 'az104-06-rg1' -LoadBalancerName 'az104-06-lb4' -Name 'az104-06-lb4-be1'
 $vNet = Get-AzVirtualNetwork -Name 'az104-06-vnet01' -ResourceGroupName 'az104-06-rg1';$ip0 = New-AzLoadBalancerBackendAddressConfig -IpAddress "10.60.0.4" -Name "az104-06-vm0" -VirtualNetworkid $vNet.id;$ip1 = New-AzLoadBalancerBackendAddressConfig -IpAddress "10.60.1.4" -Name "az104-06-vm1" -VirtualNetworkid $vNet.id;$bepool.LoadBalancerBackendAddresses.Add($ip0);$bepool.LoadBalancerBackendAddresses.Add($ip1);Set-AzLoadBalancerBackendAddressPool -InputObject $bepool
-```
+```  
+
 Voici un code Powershell pour réaliser l'Application Gateway si problème avec affichage des vNet dans le protail :  
 ```
 $vNet = Get-AzVirtualNetwork -Name 'az104-06-vnet01' -ResourceGroupName 'az104-06-rg1'; $subnetConfig = Add-AzVirtualNetworkSubnetConfig -Name 'subnet-appgw' -virtualNetwork $vNet -AddressPrefix '10.60.3.224/27'; $vNet| Set-AzVirtualNetwork; $pip = New-AzPublicIpAddress -ResourceGroupName az104-06-rg1 -Location eastus -Name az104-06-pip5 -AllocationMethod Dynamic; $subNet = $vnet.Subnets|where name -eq subnet-appgw
 $gipconfig = New-AzApplicationGatewayIPConfiguration -Name myAGIPConfig  -Subnet $subnet ; $fipconfig = New-AzApplicationGatewayFrontendIPConfig  -Name myAGFrontendIPConfig -PublicIPAddress $pip; $frontendport = New-AzApplicationGatewayFrontendPort -Name myFrontendPort -Port 80; $defaultPool = New-AzApplicationGatewayBackendAddressPool -Name az104-06-appgw5-be1 -BackendIPAddresses '10.62.0.4', '10.63.0.4';$poolSettings = New-AzApplicationGatewayBackendHttpSettings -Name az104-06-appgw5-http1 -Port 80 -Protocol Http -CookieBasedAffinity Enabled -RequestTimeout 20; $defaultlistener = New-AzApplicationGatewayHttpListener -Name az104-06-appgw5-rl1l1 -Protocol Http -FrontendIPConfiguration $fipconfig -FrontendPort $frontendport; $frontendRule = New-AzApplicationGatewayRequestRoutingRule -Name az104-06-appgw5-rl1  -RuleType Basic -HttpListener $defaultlistener -BackendAddressPool $defaultPool -BackendHttpSettings $poolSettings; $sku = New-AzApplicationGatewaySku -Name WAF_Medium -Tier WAF -Capacity 2
 $appgw = New-AzApplicationGateway -Name az104-06-appgw5  -ResourceGroupName az104-06-rg1  -Location eastus -BackendAddressPools $defaultPool  -BackendHttpSettingsCollection $poolSettings -FrontendIpConfigurations $fipconfig -GatewayIpConfigurations $gipconfig -FrontendPorts $frontendport -HttpListeners $defaultlistener -RequestRoutingRules $frontendRule -Sku $sku
-```
+```  
+
 # Atelier 7
 Dans l'exercice 1, tâche 5 on utilise le "*Run command*" de la paravirtualisation Azure pour faire un new-PSDrive en powershell. Si le nom du storage account créé précédemment *commence par un n* le binôme de caractères "**\n**" pourra être interprété comme un retour à la ligne....
 # Module 9

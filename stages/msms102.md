@@ -27,7 +27,8 @@ Il est possible de créer une nouvelle [Info sensible](https://docs.microsoft.co
   ```pwsh
   $deletedGroup = get-mgDirectoryDeletedItem -DirectoryObjectId (get-mgDirectoryDeletedGroup|where displayName -eq 'Inside Sales').id  
   restore-MgDirectoryDeletedItem -DirectoryObjectId $deletedGroup.Id
-  ```
+  ```  
+  
   A date (10/10/2023) il semblerait que la commande restore-MgDirectoryDeletedItem ne soit pas présente dans le module microsoft.graph mais dans le module microsoft.graph.beta
 # Atelier 2
 - Exercice 2 : points 14 & 22 : le retour de message non délivré cocernera probablement plutôt le fait que les domaines ***.onmicrosoft.com sont désormais considérés comme spam par défaut pour lutter contre le Spam des comptes gratuits
