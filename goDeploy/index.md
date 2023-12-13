@@ -1,3 +1,7 @@
+---
+layout: default
+title: Aide pour la plateforme goDeploy
+---
 # Plateforme goDeploy
 Les ateliers en ligne goDeploy sont particulièrement pratiques mais toutes leurs fonctions ne sont pas forcément intuitives. Le présent document a pour but d’aider les formateurs ib à appréhender cette plateforme et à la présenter aux stagiaires.  
 ## Contenu de ce document
