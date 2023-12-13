@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: stage
 title: Aide pour la plateforme goDeploy
 ---
 # Plateforme goDeploy
