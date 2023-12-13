@@ -10,7 +10,7 @@ Le contenu des stages est rédigé en [format markdown](https://docs.github.com/
 # Variables
 Les variables sont à insérer dans un [en-tête YAML](https://jekyllrb.com/docs/front-matter/) au début du fichier de chaque stage.  
 La variable obligatoire en en-tête du stage  
-- **title:** Le nom du stge en toutes lettres  
+- **title:** Le nom du stage en toutes lettres  
 
 Les variables disponibles dans l'en-tête de chaque stage  
 - **labs:** url des labs officiels sur Github
