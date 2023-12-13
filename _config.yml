@@ -17,9 +17,4 @@ defaults:
       path: "stages"
     values:
       layout: "stage"
-  -
-    scope:
-      path: "goDeploy"
-    values:
-      layout: "default"
 title: "ib - apts"
