@@ -16,7 +16,6 @@ Ce stage a remplacé (en en prenant des modules, mis à jour) les stages ms-100 
 - Jeudi : Fin du Learning path 6, ateliers et Learning path 7
 - Vendredi : Learning path 8 et 9
 # Module 6
-- [Demo Defender for Cloud Apps](https://mslearn.cloudguides.com/en-us/guides/Protect%20and%20control%20information%20with%20Microsoft%20Cloud%20App%20Security)
 - [Demo Defender for Endpoint](https://mslearn.cloudguides.com/guides/Investigate%20and%20remediate%20threats%20with%20Microsoft%20Defender%20for%20Endpoint)
 # Module 7
 - OME a été remplaçé par Purview Message Encryption ([comparaison](https://docs.microsoft.com/en-us/microsoft-365/compliance/ome-version-comparison?view=o365-worldwide#side-by-side-comparison-of-message-encryption-features-and-capabilities))  
