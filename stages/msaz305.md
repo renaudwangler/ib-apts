@@ -12,8 +12,9 @@ Azure: true
 - Jour 4 : Débrief étude de cas 8 Fabrikam optionnelle, Modules 9 (+ étude de cas), 10 et 11 (sans études de cas)  
 
 # Module 7
-La diapositive N° 14 parle de l'IOT hub qui n'est pas repris dans Learn
-[Jeu d'icônes pour design Azure](https://docs.microsoft.com/en-us/azure/architecture/icons/)
+La diapositive N° 14 parle de l'IOT hub qui n'est pas repris dans Learn  
+- [Jeu d'icônes pour design Azure](https://docs.microsoft.com/en-us/azure/architecture/icons/)  
+- [Landing zones](https://learn.microsoft.com/en-us/azure/cloud-adoption-framework/ready/landing-zone/)
 # Ateliers goDeploy
 Les ateliers goDeploy sont à considérer comme un complément au stage (pour les participants les plus motivés).  
 Le stage de 4 jours est taillé pour échanger autour des études de cas uniquement.  
