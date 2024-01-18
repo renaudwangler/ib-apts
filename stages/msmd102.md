@@ -21,8 +21,17 @@ Exercice 2, tâche 3 : Contrairement à ce qui est indiqué à date, c'est la fo
 Exercice 2, tâche 4 : cette tâche est complètement inutile, au vu du mode de fonctionnement (agent = synchrone) du Password Writeback qui n'a, au final, rien à voir avec la synchronisation Entra Id connect.
 Exercice 3, tâche 2 , point 9 : Par contre le même compte peut accéder à onedrive.com, site non concerné par l'interdiction
 
+# Lab 503
+Si le mot de passe collé dans l'environnement goDeploy ne passe pas (il embarque un espace), le taper manuellement !
+
 # Lab 7
 Il sera important que l'environnement ait "proprement" démarré (DC puis toutes autres machines avec carte réseau en domaine) pour que cet atelier fonctionne comme attendu...  
+
+# Lab 8
+Si la machine SEA-W10-CL3 n'a pas de réseau opérationnel au démarrage, utiliser la commande "restart-service dhcpServer" sur SEA-DC1 !
+## Astuce
+Les commandes suivantes permettent de lister toutes les machines qui ont été installées via *Autopilot* en requètant leur identifiant spécifique :  
+```Connect-MgGraph -scopes "device.read.all" -NoWelcome; foreach ($computer in Get-MgDevice) {foreach ($id in $computer.PhysicalIds) {if ($id -like '`[ZTDID`]:*') {$computer.DisplayName}}}```
 
 # Timing suggéré (le timing suggéré officiellement par l'éditeur suggère une journée à moins de 3h de travail...)
 - Lundi : Introdution, Learning Path 1 et son lab
