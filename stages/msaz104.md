@@ -1,21 +1,16 @@
 ﻿---
 title: Microsoft Azure - Administration
 labs: https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator/
-labsFR: https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator.fr-fr/
+labsFR: https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator.fr-fr/ (A éviter)
 Azure: true
-editDate: 07/03/2023
+editDate: 16/02/2024
 ---
-Le stage est plutôt dense sur 4 jours et s'adresse à des stagiaires qui ont impérativement suivi le msaz900 pour connaitre les principes Cloud et Azure de base.  
+La densité du stage est correcte sur 4 jours mais il s'adresse à des stagiaires qui ont impérativement suivi le msaz900 pour connaitre les principes Cloud et Azure de base.  
 Le cas échéant, renvoyer les stagiaires sur le [az-900 sur MSLearn](https://learn.microsoft.com/en-us/training/courses/az-900t00).
-# En direct du [Learning Download Center](https://learningdownloadcenter.microsoft.com/)
-Dans les éléments téléchargeables concernant ce stage, ne pas passer à côté de :
-- Le "Course Datasheet" qui contient des relations entre le contenu du stage en salle et les liens MSLearn correspondant.
-- Le fichier "Demonstrations" qui, comme son nom l'indique, contient le déroulé des diverses démonstrations utilisées dans le stage.
-- Le fichier "AssessmentGuide" qui comprend des liens afin de créer des formulaires/QCM pour chaque module et de les partager aux stagiaires (nettement moins utile depuis la présence systèmatique de *Knowledge check* sur MSLearn).
-- Un changelog très complet.
+
 # Timing exemple
-- Jour 1 : Introduction Learning Path 1, repas, LP 2 et 3
-- Jour 2 : LP 4, 5 et 6
+- Jour 1 : Introduction Learning Path 1, repas, LP 2 et 3 (le 3 peut être basculé sur le jour 2)
+- Jour 2 : LP 4, 5 et 6 (journée réseau)
 - Jour 3 : LP 7, 8 et 9 modules 1 et 2
 - Jour 4 : Fin LP 9, LP 10 et 11  
 
@@ -23,12 +18,12 @@ Dans les éléments téléchargeables concernant ce stage, ne pas passer à côt
 Le dernier thème présent dans les diapositives (*Network Watcher*) est, sur learn, traité dans le LP 11
 
 # Tous les labs
-Les ateliers *goDeploy* sont désormais nécessaires car l'éditeur ne fournit plus de Pass Azure pour les stages.  
+goDeploy propose des ateliers optionnels qui ne sont pas inclus dans le timing du stage mais peuvent être utilisés par les stagiaires pour découvrir/pratiquer des éléments complémentaires.  
+Les ateliers goDeploy correspondent encore à l'ancienne version du stage et de ses ateliers (mise à jour de leur part en attente)
 A voir aussi : [Simulation intéractive de tous les ateliers az-104](https://mslabs.cloudguides.com/guides/AZ-104%20Exam%20Guide%20-%20Microsoft%20Azure%20Administrator).  
 # Atelier 1
-**Tâche 3:** il pourra être impossible de créer un nouveau tenant AZure AD dans l'environnement goDeploy. Réaliser alors la tâche 4 en invitant un autre email (adresse personnelle par exemple).
-# Atelier 2
-Si des stagiaires ont utilisé la **procédures de mise en place d'un environnement d'ateliers ib sur un compte Azure**, la stratégie (Azure Policy) travaillera sur le resource group *ibLabs* qui est vérouillé : inviter à supprimer le verrou (*lock*) pour faire le ménage des stratégies.
+IL est, à date, impossible de créer un nouveau tenant Entra Id : l'atelier est donc remplaçé par une simulation interactive.
+
 # Atelier 6 (Info obsolète)
 Il semblerait que, de manière aléatoire, le "network watcher" pose des problèmes dans certaines régions avec les limitations des Pass azure...  
 Voici un code Powershell permettant de réaliser les test Network Watcher dans tous les cas :
@@ -57,13 +52,9 @@ $gipconfig = New-AzApplicationGatewayIPConfiguration -Name myAGIPConfig  -Subnet
 $appgw = New-AzApplicationGateway -Name az104-06-appgw5  -ResourceGroupName az104-06-rg1  -Location eastus -BackendAddressPools $defaultPool  -BackendHttpSettingsCollection $poolSettings -FrontendIpConfigurations $fipconfig -GatewayIpConfigurations $gipconfig -FrontendPorts $frontendport -HttpListeners $defaultlistener -RequestRoutingRules $frontendRule -Sku $sku
 ```  
 
-# Atelier 7
-Dans l'exercice 1, tâche 5 on utilise le "*Run command*" de la paravirtualisation Azure pour faire un new-PSDrive en powershell. Si le nom du storage account créé précédemment *commence par un n* le binôme de caractères "**\n**" pourra être interprété comme un retour à la ligne....
 # Module 9
 Il pourra être pertinent de faire une double-démonstration :
   - Créer une Web-App avec un conteneur Docker "nginx" récupéré depuis le Docker Hub
   - Créer une instance de conteneur "nginx" récupérée depuis le Docker Hub  
 
 Cela permet de bien montrer la différence entre les deux approches, la gestion applicative complète PAAS de la web-app et le '*quasi-Iaas*' de l'instance de conteneur.
-# Atelier 10
-A noter que si l'on crée un **Log Analytics** en "East US", le **Automation Account** derva être créé dans la région "East US 2" (et vice versa, comme indiqué dans le document pointé par la petite note de l'atelier).
