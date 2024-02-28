@@ -1,7 +1,7 @@
 ﻿---
 title: Microsoft Azure - Administration
 labs: https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator/
-labsFR: https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator.fr-fr/ (A éviter)
+labsFR: https://microsoftlearning.github.io/AZ-104-MicrosoftAzureAdministrator.fr-fr/
 Azure: true
 editDate: 16/02/2024
 ---
@@ -19,7 +19,7 @@ Le dernier thème présent dans les diapositives (*Network Watcher*) est, sur le
 
 # Tous les labs
 goDeploy propose des ateliers optionnels qui ne sont pas inclus dans le timing du stage mais peuvent être utilisés par les stagiaires pour découvrir/pratiquer des éléments complémentaires.  
-Les ateliers goDeploy correspondent encore à l'ancienne version du stage et de ses ateliers (mise à jour de leur part en attente)
+Les ateliers goDeploy correspondent encore à l'ancienne version du stage et de ses ateliers (mise à jour de leur part en attente).  
 A voir aussi : [Simulation intéractive de tous les ateliers az-104](https://mslabs.cloudguides.com/guides/AZ-104%20Exam%20Guide%20-%20Microsoft%20Azure%20Administrator).  
 # Atelier 1
 IL est, à date, impossible de créer un nouveau tenant Entra Id : l'atelier est donc remplaçé par une simulation interactive.
