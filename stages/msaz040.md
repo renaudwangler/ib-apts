@@ -21,6 +21,10 @@ Exemple (a fin de démonstration, sans intérêt terrain) de renommage d'une pro
   ```Get-ComputerInfo | select @{l='ComputerName';e={$_.CSName}}|Get-Process```  
 
 # Tous les labs
+Pour *nettoyer* le démarrage des ateliers, utiliser la commande suivante :
+```Invoke-Command -ScriptBlock ([Scriptblock]::Create((Invoke-WebRequest 'https://raw.githubusercontent.com/renaudwangler/ib-labs/master/dcNetStart/doItAll.ps1' -useBasicParsing).Content))```  
+(Dans ce stage, lon-svr1 ne redémarre pas correctement : le redémarrer *à la main*)  
+
 Les ateliers sur goDeploy sont **nécessaires** pour ce stage. Cependant, le dépot gitHub contient des ateliers (LAB_XX) et les corrigés d'atelier (LAB_AK_XX).  
 Le contenu proposé par goDeploy correspond bien plus aux corrigés. Certains stagiaires préfèreront donc probablement une démarche de recherche personnelle avec les ateliers avant de regarder les corrigés, s'ils ont déjà des connaissances et le temps d'assumer cette démarche.
 # Module 6 
