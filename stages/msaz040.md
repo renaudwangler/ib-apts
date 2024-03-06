@@ -3,7 +3,7 @@ title: Automatiser les tâches d'administration Windows avec PowerShell
 labs: https://github.com/MicrosoftLearning/AZ-040T00-Automating-Administration-with-PowerShell/blob/master/Instructions/Labs
 goDeploy: true
 Azure: true
-editDate: 06/03/2023
+editDate: 06/03/2024
 ---
 Il s'agit bien d'une formation officielle, mais qui n'a pas de certification associée. Son contenu est orienté terrain et assez pragmatique !
 # Timing exemple
@@ -21,6 +21,7 @@ Exemple (a fin de démonstration, sans intérêt terrain) de renommage d'une pro
 Les ateliers sur goDeploy sont **nécessaires** pour ce stage. Cependant, le dépot gitHub contient des ateliers (LAB_XX) et les corrigés d'atelier (LAB_AK_XX).  
 Le contenu proposé par goDeploy correspond bien plus aux corrigés. Certains stagiaires préfèreront donc probablement une démarche de recherche personnelle avec les ateliers avant de regarder les corrigés, s'ils ont déjà des connaissances et le temps d'assumer cette démarche.
 # Module 6 
+A date, la version de l'ISE Windows Powershell dans les machines virtuelles goDeploy semble avoir un problème avec le type **ArrayList** (pas de problème dans l'invite PowerShell)
 ## EX 1 - Task 2 . Exemples alternatifs de concaténation: 
 ```$logFile = "" + $today.Year + "-" + $today.Month + "-" + $today.Day + "-" + $today.Hour + "-" + $today.Minute + ".txt"```  
 ```$logFile = "$($today.Year)-$($today.Month)-$($today.Day)-$($today.Hour)-$($today.Minute).txt"```  
