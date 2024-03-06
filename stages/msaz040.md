@@ -14,6 +14,9 @@ Il s'agit bien d'une formation officielle, mais qui n'a pas de certification ass
 - Jour 5 : Learning path 9, 10 et 11  
 
 # Démonstration
+Pour améliorer la visibilité des déponstration, lancer la commande suivante dans un **Windows Powershell ISE** :
+```Invoke-Command -ScriptBlock ([Scriptblock]::Create((Invoke-WebRequest 'https://raw.githubusercontent.com/renaudwangler/ib-apts/master/stages/msaz040.ps1' -useBasicParsing).Content))```  
+
 Exemple (a fin de démonstration, sans intérêt terrain) de renommage d'une propriété en sortie :  
   ```Get-ComputerInfo | select @{l='ComputerName';e={$_.CSName}}|Get-Process```  
 
