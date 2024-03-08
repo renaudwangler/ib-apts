@@ -2,7 +2,7 @@
 install-packageProvider Nuget -Force|Out-Null
 install-module displaySettings -force -allowClobber|Out-Null
 import-module displaySettings
-set-displayResolution -width 1600 -height 900 -force
+set-displayResolution -width 1600 -height 900
 
 #Paramètrage plus lisible à distance pour l'ISE Windows Powershell
 $psISE.Options.Zoom = 150
