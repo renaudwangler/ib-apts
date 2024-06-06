@@ -3,7 +3,7 @@ title: Windows Server - Administration de base de l'infrastructure hybride
 goDeploy: true
 Azure: true
 labs: https://microsoftlearning.github.io/AZ-800-Administering-Windows-Server-Hybrid-Core-Infrastructure/
-editDate: 07/03/2023
+editDate: 06/06/2024
 ---
 # Lien vers le stage sur MS-Learn
 - [Administering Windows Server Hybrid Core Infrastructure](https://learn.microsoft.com/en-us/training/courses/az-800t00)
@@ -20,6 +20,15 @@ editDate: 07/03/2023
 La diapositive N° 21 est erronnée : la fonctionnalité "Seamless SSO" n'a aucun sens avec du ADFS. Elle peut fluidifier le logon utilisateur avec le Password hasj Sync ou le Path Through Authentication.  
 Les titres des Diapositives N° 21,22 et 23 devraient être "Implement Seamless SSO and PTA"  
 Nota concernant la démonstration mentionnée en diapositive N° 24, elle est fonctionnelle car la connexion se fait depuis Azure Bastion. Sinon, il eut fallu se connecter en RDP depuis une machine mmebre du même Azure AD (bien plus compliqué à mettre en oeuvre).
+# Learning path 5 - Module 4
+Activer et configurer l'initiator iSCSI en Powershell (très utile pour les installations Core) :
+```
+$iscsiTargetName = sea-svr3
+Set-Service -Name MSiSCSI -StartupType Automatic; Start-Service -Name MSiSCSI
+New-IscsiTargetPortal -TargetPortalAddress $iscsiTargetName
+Connect-IscsiTarget -NodeAddress (Get-IscsiTarget).NodeAddress -IsPersistent $true
+```  
+
 # Learning Path 5 - Module 6
 Une fois de plus, MS Learning n'a malheureusement pas mis à jour la terminologie (alors que la nouvelle est bien plus pertinente). Dans le stockage Azure, on parle désormais de **Containers** au lieu de blobs et de **File Shares** au lieu de files...
 # Tous les labs
