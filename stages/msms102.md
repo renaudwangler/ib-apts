@@ -11,7 +11,7 @@ Au vu des différences pédagogiques entre les US et l'Europe, il pourra être p
 Ce stage a remplacé (en en prenant des modules, mis à jour) les stages ms-100 et ms-101 mais ne porte pas du tout sur intune et la gestion MDM/MAM
 # Timing suggéré
 - Lundi : Introdution, Learning Path 1 et 2 (modules 1 et 2)
-- Mardi : Fin du learning path 1, Learning path 3 et 4
+- Mardi : Fin du learning path 2, Learning path 3 et 4
 - Mercredi : Fin des labs du LP 4, Learning path 5 et 6 (modules 1 et 2)
 - Jeudi : Fin du Learning path 6, ateliers et Learning path 7
 - Vendredi : Learning path 8 et 9
