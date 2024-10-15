@@ -1,8 +1,21 @@
+#Nettoyage du réseau si lançé depuis le DC
+if ((Get-CimInstance -ClassName Win32_OperatingSystem).ProductType -eq 2) {
+  #La machine est un contrôleur de domaine.
+  $ADdomain = Get-ADDomain -Current LocalComputer
+  if ((Get-NetConnectionProfile).NetworkCategory -ne 'DomainAuthenticated') {
+    Write-Host "Nettoyage du réseau local." -ForegroundColor Yellow
+    Get-NetAdapter|Restart-NetAdapter
+    while((Get-NetConnectionProfile).NetworkCategory -ne 'DomainAuthenticated') { Start-Sleep -Seconds 1 }}
+  Get-ADComputer -Filter * | Where DNSHostName -NotLike "$($ENV:ComputerName)*" | ForEach-Object {
+    try { 
+        Restart-Computer -ComputerName $_.DNSHostName -Force -ErrorAction Stop
+        Write-Host "Redémarrage de $($_.DNSHostName)." -ForegroundColor Green }
+    Catch { 
+        Write-Host "Impossible de redémarrer $($_.DNSHostName)." -ForegroundColor Red
+        Write-Host "  ($($_.Exception.Message))." -ForegroundColor Magenta }}}
+
 #Résolution 1600*900 pour la VM goDeploy
-install-packageProvider Nuget -Force|Out-Null
-install-module displaySettings -force -allowClobber|Out-Null
-import-module displaySettings
-set-displayResolution -width 1600 -height 900
+set-displayResolution -width 1600 -height 900 -Force
 
 #Paramètrage plus lisible à distance pour l'ISE Windows Powershell
 $psISE.Options.Zoom = 150
