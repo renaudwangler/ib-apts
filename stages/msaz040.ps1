@@ -15,7 +15,7 @@ if ((Get-CimInstance -ClassName Win32_OperatingSystem).ProductType -eq 2) {
         Write-Host "  ($($_.Exception.Message))." -ForegroundColor Magenta }}}
 
 #Résolution 1600*900 pour la VM goDeploy
-set-displayResolution -width 1600 -height 900 -Force
+set-displayResolution -width 1600 -height 900 -Force|out-null
 
 #Paramètrage plus lisible à distance pour l'ISE Windows Powershell
 $psISE.Options.Zoom = 150
