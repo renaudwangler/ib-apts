@@ -3,26 +3,22 @@ title: Microsoft Azure - Technologies de sécurité
 goDeploy: true
 Azure: true
 labs: https://microsoftlearning.github.io/AZ500-AzureSecurityTechnologies/
+editDate: 23/12/2024
 ---
 [Support de stage en Français](https://docs.microsoft.com/fr-fr/training/courses/AZ-500T00?WT.mc_id=ilt_partner_webpage_wwl&ocid=IB1090206#study-guide)  
 [Support de stage en Anglais](https://docs.microsoft.com/en-us/training/courses/AZ-500T00?WT.mc_id=ilt_partner_webpage_wwl&ocid=IB1090206#study-guide)  
-A date (09/2022) les diapositives françaises proposées en téléchargement sont d'une qualité tout à fait médiocre... A éviter donc...  
-Indiquer aux stagiaires que les **éléments d'introduction des ateliers** (schémas) se retrouvent désormais en introduction des ateliers (github/goDeploy).
-# En direct du [Learning Download Center](https://learningdownloadcenter.microsoft.com/)
-Dans les éléments téléchargeables concernant ce stage, ne pas passer à côté du fichier "AssessmentGuide" qui comprend des liens afin de créer des formulaires/QCM pour chaque module et de les partager aux stagiaires (aprticulièrement pertinent poru de l'animation distancielle).
+A dernière consultation (09/2022) les diapositives françaises proposées en téléchargement sont d'une qualité tout à fait médiocre... A éviter donc...  
+# En direct du [Learning Download Center] :
+Dans les éléments téléchargeables concernant ce stage, le fichier "AssessmentGuide" qui comprend des QCM pour chaque module manque cruellement de mise à jour (Azure AD etc...).
 # Timing exemple
-- Jour 1 (identité): Module 1 + Ateliers 1, 2, 3, 4 ,5 et 6 (l'ateliers 5 dépend du 4)
-- Jour 2 (Sécurité des resources Azure): Module 2 + Ateliers 7, 8 et 9
-- Jour 3 (Sécurité des données et applications): Module 3 + Atelier 10, 11 et 12
-- Jour 4 (Sécurisation opérationnelle): Module 4 + Ateliers 13, 14 et 15  
+- Jour 1 (identité): Introdution + Learning Path 1 (Atelier 1)
+- Jour 2 (Sécurité du réseau): Learning Path 2 (Ateliers 2 et 3) + si possible Learning path 3 (Module 1 et 2)
+- Jour 3 (Sécurité des données et applications): Learning Path 3 (Ateliers 4, 5 et 6 ) + Learnoing Path 4 (Module 1)
+- Jour 4 (Sécurité opérationnelle): Learning Path 4
 
-# Timing Exemple sur 5 jours
-(contenu léger pour 5 jours...)
-- Jour 1: Module 0 (présentation) et Module 1, thèmes 1 et 2; Lab 6
-- Jour 2: Module 1, thèmes 3 à 5, Labs 1 à 5; Module 2, thèmes 1 et 2 Labs 7 et 8 (lab en plus si goDeploy : 102 et 103)
-- Jour 3: Module 2, thèmes 4 et 5, Lab 9 ( (lab en plus si goDeploy : 104 à 107); Module 3, thèmes 1 et 2, Lab 10
-- Jour 4: Module 3, thèmes 3 et 4, labs 11 et 12; Module 4, thème 1 et 2
-- Jour 5: Module 4, thème 3, Labs 13, 14 et 15  
+# Atelier 1 
+- A date (12/2024) la description synthètique de l'atelier go Deploy est incorrecte (inclut PIM) mais le contenu, lui, est correct.
+- Dommage que la manipulation Entra Id en Powershell soit faite avec le module AzureAD et non avec le module Microsoft Graph
 
 # Atelier 4
 - Il est possible d'utiliser un numéro de mobile pour recevoir un texto pour la MFA.
@@ -46,5 +42,3 @@ Par exemple, les journaux (logs) sont filtrés pour affichage en se basant sur l
 S'il est impossible d'ajouter (de voir) la VM depuis le workspace Log Analytics, procéder à l'onboard depuis le menu "Logs" de la VM...
 # Ateliers goDeploy
 Limitation de 5 lancements des ateliers "Cloud Shared" de cette formation.
-# Accompagnement Ateliers
-Au vu du timing de la session (on a le temps de le faire), il sera **très pertinent** que l'animateur/trice fasse une revue de détail du contenu des labs (quelle commande Powershell sert à quoi) si besoin **après** la réalisation autonome des ateliers.
