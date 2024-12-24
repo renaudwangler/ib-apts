@@ -16,9 +16,15 @@ Dans les éléments téléchargeables concernant ce stage, le fichier "Assessmen
 - Jour 3 (Sécurité des données et applications): Learning Path 3 (Ateliers 4, 5 et 6 ) + Learnoing Path 4 (Module 1)
 - Jour 4 (Sécurité opérationnelle): Learning Path 4
 
+# Learning Path2 - Module 2 Plan and implement virtual network Service Endpoints
+Le schéma de la diapositive est erroné puisqu'il parle d'accès d'une VM à une autre : le schéma sur Learn est correct.
+
 # Atelier 1 
 - A date (12/2024) la description synthètique de l'atelier go Deploy est incorrecte (inclut PIM) mais le contenu, lui, est correct.
 - Dommage que la manipulation Entra Id en Powershell soit faite avec le module AzureAD et non avec le module Microsoft Graph
+
+# Atelier 2
+- Bien veiller à ce que les stagiaires ne sélectionnent pas les modèles *Classic* des diverses resources.
 
 # Atelier 4
 - Il est possible d'utiliser un numéro de mobile pour recevoir un texto pour la MFA.
@@ -35,10 +41,11 @@ Dans l'environnement goDeploy, Defender for SQL étant déjà activé au préala
 # Atelier 6 (sur goDeploy)
 La mise en place de la haute disponibilité de la PTA telle que décrite dans le lab goDeploy n'est absolument pas pertinente : la seconde installation de "Azure AD Connect" désactive la première.  
 La bonne manière de faire est d'installer et connecter uniquement un second connecteur PTA ([voir documentation](https://learn.microsoft.com/en-us/azure/active-directory/hybrid/how-to-connect-pta-quick-start#step-4-ensure-high-availability)).  
-# Ateliers
+
+
+# Ateliers en général
 Pour plusieurs ateliers, il faudra s'assurer de la bonne synchronisation de l'heure de la machine (virtuelle) cliente...  
 Par exemple, les journaux (logs) sont filtrés pour affichage en se basant sur l'horaire de la VM.
+
 # Atelier 13
 S'il est impossible d'ajouter (de voir) la VM depuis le workspace Log Analytics, procéder à l'onboard depuis le menu "Logs" de la VM...
-# Ateliers goDeploy
-Limitation de 5 lancements des ateliers "Cloud Shared" de cette formation.
