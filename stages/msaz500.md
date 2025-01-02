@@ -32,9 +32,14 @@ Le schéma de la diapositive est erroné puisqu'il parle d'accès d'une VM à un
 - Bien veiller à ce que les stagiaires ne sélectionnent pas les modèles *Classic* des diverses resources (remarque valable sur l'ensemble des ateliers)
 
 # Atelier 5
-_ Exercice 1, tâche 2, point 7 : lors de mes tests, toujours pas d'informations affichées après plus de trente minutes d'attente....
+- Exercice 1, tâche 2, point 7 : lors de mes tests, toujours pas d'informations affichées après plus de trente minutes d'attente....
 
-
+# Atelier 7
+- Cet atelier est très long....
+- Dans cet atelier le double passage en redp pose problème : préférer le coller dans un notepad de la vm d'atelier puis copier/coller vers la VM créée (même si pénible)
+- Exercice 3, Tâche 5, point 6 : lorsque   J'ai cliqué pour coller l'url, le **?** a été remplaçé par un **/**
+- Il semble que le SQL server management studio soit installé dans le template
+ 
 
 
 # Atelier 11
