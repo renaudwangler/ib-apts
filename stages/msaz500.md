@@ -40,10 +40,13 @@ Le schéma de la diapositive est erroné puisqu'il parle d'accès d'une VM à un
 - Exercice 3, Tâche 5, point 6 : lorsque   J'ai cliqué pour coller l'url, le **?** a été remplaçé par un **/**
 - Il semble que le SQL server management studio soit installé dans le template
  
+# Ateliers 8, 9 et 10
+- Ces trois ateliers sont regroupés dans le même lab goDeploy, avec un petit menu en haut à gauche des instructions permettant de sélectionner chacun des trois.
 
+# Atelier 9
+- Exercice 1, tâche 1, point 5 : Les *Defender for Cloud* étant déjà activés sur l'abonnement goDeploy, cliquer simplement sur **Cancel**
+- Exercice 1, Tâche 1, point 7 : dans notre contexte, il suffira d'activer **Foundational CSPM** et **SQL Server on machines**
 
-# Atelier 11
-Dans l'environnement goDeploy, Defender for SQL étant déjà activé au préalable au niveau de l'abonnement, il est possible et probable qu'aucune recommandation n'apparaisse quant au statut des bases de données, même en attendant plus que le temps conseillé.
-
-# Atelier 13
-S'il est impossible d'ajouter (de voir) la VM depuis le workspace Log Analytics, procéder à l'onboard depuis le menu "Logs" de la VM...
+# Atelier 10
+- Comme indiqué en tête de cet atelier, il ne peut être pleinment réalisé dans le contexte de l'abonnement partagé fourni par goDeploy. Cependant, suivre les étapes mentionnées dans cet atelier sera possible sur un compte de test *personnel*. Le contenu de cet atelier est en fait jouable jusqu'à la tâche 4 incluse.
+- Exercice 1, Tâche 4, les points 11 à 16 devront être remplaçés par l'édition de l'*API Connection* présente dans le resource group. En se rendant dans **General/edit API connection**, en cliquant sur **Authorize** puis sur **Save**.
