@@ -23,9 +23,9 @@ $type = Add-Type -MemberDefinition '[DllImport("user32.dll")] public static exte
 $null = $type::ShowWindowAsync((get-process powershell_ise).MainWindowHandle,3)
 
 #Installation du module ib pour démonstrations
-Install-PackageProvider Nuget –force –verbose
-register-psrepository -Default
-Install-module ib -force
+Install-PackageProvider Nuget –force | out-null
+register-psrepository -Default -ErrorAction silentlyContinue
+Install-module ib -force | out-null
 $psISE.CurrentPowerShellTab.Files.Add((get-module -listavailable ib).path.replace('.psd1','.psm1'))
 $psISE.CurrentPowerShellTab.Files.RemoveAt(0)
 
