@@ -25,8 +25,8 @@ $null = $type::ShowWindowAsync((get-process powershell_ise).MainWindowHandle,3)
 #Installation du module ib pour démonstrations
 Install-PackageProvider Nuget –force | out-null
 register-psrepository -Default -ErrorAction silentlyContinue
-Install-module ib -force | out-null
-$psISE.CurrentPowerShellTab.Files.Add((get-module -listavailable ib).path.replace('.psd1','.psm1'))
+Install-module ib -force
+$psISE.CurrentPowerShellTab.Files.Add((get-module -listavailable ib).path.replace('.psd1','.psm1')) | out-null
 $psISE.CurrentPowerShellTab.Files.RemoveAt(0)
 
 #Paramètrage plus lisible à distance pour l'ISE Windows Powershell
