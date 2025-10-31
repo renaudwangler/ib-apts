@@ -14,11 +14,11 @@ Il s'agit bien d'une formation officielle, mais qui n'a pas de certification ass
 - Jour 5 : Learning path 9, 10 et 11  
 
 # Démonstration
-Pour améliorer la visibilité des déponstration, lancer la commande suivante dans un **Windows Powershell ISE** :
+Pour améliorer la visibilité des déponstration, lancer la commande suivante dans un **Windows Powershell ISE** :  
 ```Invoke-Command -ScriptBlock ([Scriptblock]::Create((Invoke-WebRequest 'https://raw.githubusercontent.com/renaudwangler/ib-apts/master/stages/msaz040.ps1' -useBasicParsing).Content))```  
 
-Forunir aux stagiaires la liste brute de toutes les commandes utilisées (dans une session Powershell) pendant les démonstration :
-```(get-history).CommandLine|out-File -filePath "$env:ALLUSERSPROFILE\desktop\$(get-date -format 'yyyyMMdd-HH').ps1"```
+Fournir aux stagiaires la liste brute de toutes les commandes utilisées (dans une session Powershell) pendant les démonstration :  
+```(get-history).CommandLine|out-File -filePath "$env:ALLUSERSPROFILE\desktop\$(get-date -format 'yyyyMMdd-HH').ps1";start msedge```
 
 Exemple (a fin de démonstration, sans intérêt terrain) de renommage d'une propriété en sortie :  
   ```Get-ComputerInfo | select @{l='ComputerName';e={$_.CSName}}|Get-Process```  
