@@ -1,7 +1,7 @@
 ﻿---
-title: Microsoft Azure - Notions fondamentales
+title: Introcution to Cloud Infrastructure
 Azure: true
-editDate: 28/11/2023
+editDate: 13/11/2025
 ---
 Le stage az-900 a plus un format de *séminaire* que de réel *stage* : il ne contient **aucun atelier**.  
 
@@ -19,3 +19,9 @@ On pourra également conseiller aux stagiaires de se créer un compte Microsoft 
 La création d'un compte Azure gratuit nécessite de saisir des informations de Carte Bancaire : prendre le temps de dédramatiser la démarche, en expliquant que la carte ne sera jamais débitée : si le compte Azure venait à dépasser la volumétrie de services offerte, c'est le compte qui serait désactivé.  
 
 Petite astuce pour finir, qui synthétise bien ce qui est mentionné plus haut : ne pas passer trop de temps sur la partie du stage qui décrit les services *techniques* (VM etc...) d'Azure : dans le contexte de cette journée c'est bien d'en parler et d'animer un bref échange dessus mais cela ne doit pas se substituer à l'objectif global...
+
+# Notas
+- Il sera pertinent de placer *Entra* comme une troisième offre (identité) de cloud de l'éditeur, en paralléle de Azure et 365.
+- A date, le service Azure AD B2C est déprécié et son nom est donc conservé (pas de Entra B2C).
+- Les blueprints sont dépréciés et définitivement abandonnés en Juillet 2026, préférer les *Template-specs* et les *Deployment stacks*
+- Parmi les outils graphique, toujours dommage de ne pas mentionner l'application smartphone *Azure Admin*
