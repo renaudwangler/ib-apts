@@ -1,5 +1,5 @@
 ﻿---
-title: Introcution to Cloud Infrastructure
+title: Introduction to Cloud Infrastructure
 Azure: true
 editDate: 13/11/2025
 ---
