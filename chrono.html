@@ -111,7 +111,7 @@
   let curDate=new Date();
   let curTime=curDate.getHours()+":"+curDate.getMinutes();
   curDate.setSeconds(curDate.getSeconds()+TIME_LIMIT);
-  let staTime=curDate.getHours()+":"+ (curDate.getMinutes()<10?'0'+curDate.getMinutes():curDate.getMinutes());
+  let staTime=curDate.getHours()+"h"+ (curDate.getMinutes()<10?'0'+curDate.getMinutes():curDate.getMinutes());
   document.getElementById('timerTime').childNodes[0].nodeValue=staTime;
   document.getElementById('timerText').childNodes[0].nodeValue=start;
   startTimer();
