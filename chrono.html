@@ -34,7 +34,7 @@
       else {
         //Mise en place du timer basée sur l'horaire de fin !
         newDate = new Date();
-        newDate.setHours(document.getElementById('heureVal').value.split('h')[0],document.getElementById('heureVal').value.split('h')[1],0); 
+        newDate.setHours(document.getElementById('heureVal').value.split(':')[0],document.getElementById('heureVal').value.split(':')[1],0); 
         staTime=newDate.getHours()+"h"+ (newDate.getMinutes()<10?'0'+newDate.getMinutes():newDate.getMinutes());
         document.getElementById('timerTime').childNodes[0].nodeValue=staTime;
         TIME_LIMIT=Math.abs(newDate - new Date().setSeconds(0))/1000;
