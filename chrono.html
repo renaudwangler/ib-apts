@@ -109,9 +109,9 @@
   var TIME_LIMIT=600, start='Reprise', FULL_DASH_ARRAY=283;
   let timePassed=0, timeLeft=TIME_LIMIT;
   let curDate=new Date();
-  let curTime=curDate.getHours()+"h"+curDate.getMinutes();
+  let curTime=curDate.getHours()+":"+curDate.getMinutes();
   curDate.setSeconds(curDate.getSeconds()+TIME_LIMIT);
-  let staTime=curDate.getHours()+"h"+ (curDate.getMinutes()<10?'0'+curDate.getMinutes():curDate.getMinutes());
+  let staTime=curDate.getHours()+":"+ (curDate.getMinutes()<10?'0'+curDate.getMinutes():curDate.getMinutes());
   document.getElementById('timerTime').childNodes[0].nodeValue=staTime;
   document.getElementById('timerText').childNodes[0].nodeValue=start;
   startTimer();
