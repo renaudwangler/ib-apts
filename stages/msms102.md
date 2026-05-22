@@ -43,3 +43,16 @@ Il est possible de créer une nouvelle [Info sensible](https://docs.microsoft.co
 - Exercice 1, Tâche 1 : l'installation du client des labels unifié est unutile : la fonctionnalité est désormais intégrée dans les versions actuelles de Office.
 - Ne pas hésiter à réaliser la tâche 2 en avance (création/publication du label) pour pouvoir tester le résultat le dernier jour.
 - Tâche 3, point 21 : Cliquer sur l'engrenage pour pouvoir customiser le comportement du partage.
+
+# Astuce
+Le code suivant permet de *nettoyer* Entra Id de tous les utilisateurs synchonisés après avoir enlevé la synchonisation :  
+
+```
+#Nettoyage des utilisateurs synchonisés
+Connect-MgGraph -scopes User.ReadWrite.All
+while ((Get-MgUser -All -Filter "OnpremisesSyncEnabled eq true" | Measure-Object).count) {
+  Get-MgUser -All -Filter "OnpremisesSyncEnabled eq true" | ForEach-Object {Remove-mguser -UserId $_.id}}
+get-mgGroup -All -Filter "OnpremisesSyncEnabled eq true" | ForEach-Object {Remove-MgGroup -GroupId $_.id}
+while ((Get-MgDirectoryDeletedItemAsUser).count -gt 0) {
+  Get-MgDirectoryDeletedItemAsUser|ForEach-Object {Remove-MgDirectoryDeletedItem -DirectoryObjectId $_.Id}}
+```
