@@ -21,8 +21,6 @@ Le dernier thème présent dans les diapositives (*Network Watcher*) est, sur le
 goDeploy propose des ateliers optionnels qui ne sont pas inclus dans le timing du stage mais peuvent être utilisés par les stagiaires pour découvrir/pratiquer des éléments complémentaires.  
 Les ateliers goDeploy correspondent déosrmais à la nouvelle version du stage et de ses ateliers (même si leur synopsis ne sont pas toujours à jour).  
 A voir aussi : [Simulation intéractive de tous les ateliers az-104](https://mslabs.cloudguides.com/guides/AZ-104%20Exam%20Guide%20-%20Microsoft%20Azure%20Administrator).  
-# Atelier 1
-IL est, à date, impossible de créer un nouveau tenant Entra Id : l'atelier est donc remplaçé par une simulation interactive.
 
 # Atelier 6 (Info obsolète)
 Il semblerait que, de manière aléatoire, le "network watcher" pose des problèmes dans certaines régions avec les limitations des Pass azure...  
